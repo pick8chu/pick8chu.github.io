@@ -2,24 +2,67 @@
 layout: default
 ---
 
-<!-- page title -->
-<section class="page-title bg-primary position-relative">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h1 class="text-white font-tertiary">{{ page.title }}</h1>
-      </div>
-    </div>
-  </div>
-  <!-- background shapes -->
-  <img src="{{ site.baseurl }}/assets/images/illustrations/page-title.png" alt="illustrations" class="bg-shape-1 w-100">
-  <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-pink-round.png" alt="illustrations" class="bg-shape-2">
-  <img src="{{ site.baseurl }}/assets/images/illustrations/dots-cyan.png" alt="illustrations" class="bg-shape-3">
-  <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-orange.png" alt="illustrations" class="bg-shape-4">
-  <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-yellow.png" alt="illustrations" class="bg-shape-5">
-  <img src="{{ site.baseurl }}/assets/images/illustrations/dots-group-cyan.png" alt="illustrations" class="bg-shape-6">
-  <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-cyan-lg.png" alt="illustrations" class="bg-shape-7">
-</section>
-<!-- /page title -->
+<div class="post-header">
+   <h1 class="post-title-main">{{ page.title }}</h1>
+</div>
 
-{{ content }}
+{% if page.simple_map == true %}
+
+<script>
+    $(document).ready ( function(){
+        $('.box{{page.box_number}}').addClass('active');
+    });
+</script>
+
+{% include custom/{{page.map_name}}.html %}
+
+{% elsif page.complex_map == true %}
+
+<script>
+    $(document).ready ( function(){
+        $('.modalButton{{page.box_number}}').addClass('active');
+    });
+</script>
+
+{% include custom/{{page.map_name}}.html %}
+
+{% endif %}
+
+<div class="post-content">
+
+   {% if page.summary %}
+    <div class="summary">{{page.summary}}</div>
+   {% endif %}
+
+    {% unless page.toc == false %}
+    {% include toc.html %}
+    {% endunless %}
+
+
+    {% if site.github_editme_path %}
+
+    <a target="_blank" rel="noopener" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+
+    {% endif %}
+
+   {{content}}
+
+    <div class="tags">
+        {% if page.tags != null %}
+        <b>Tags: </b>
+        {% assign projectTags = site.data.tags.allowed-tags %}
+        {% for tag in page.tags %}
+        {% if projectTags contains tag %}
+        <a href="{{ "tag_" | append: tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+    </div>
+
+{% include commento.html %}
+
+</div>
+
+{{site.data.alerts.hr_shaded}}
+
+{% include footer.html %}
