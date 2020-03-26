@@ -2,8 +2,8 @@
 
 entries:
 - title: sidebar
-  product: Jekyll Doc Theme
-  version: 6.0
+  product: pick8chu
+  version: 0.0.1
   folders:
 
   - title:
@@ -18,6 +18,15 @@ entries:
       url: /tocpage.html
       output: pdf
       type: frontmatter
+
+  - title: Android
+    output: web,pdf
+    folderitems:
+
+    - title: Start with Google Map API
+      url: /android_google_map.html
+      output: web, pdf
+      type: homepage
 
   - title: Overview
     output: web, pdf
