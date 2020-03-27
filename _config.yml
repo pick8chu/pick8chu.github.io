@@ -1,18 +1,18 @@
-repository: tomjoht/documentation-theme-jekyll
+repository: pick8chu/github.io
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Jekyll Documentation Theme
+topnav_title: PICK8CHU's blog of things
 # this appears on the top navigation bar next to the home button
 
-site_title: Jekyll theme for documentation
+site_title: PICK8CHU's blog of things
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Your company
+company_name: N/A
 # this appears in the footer
 
-github_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
+github_editme_path: pick8chu/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 # gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
@@ -33,9 +33,9 @@ exclude:
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: Jekyll documentation theme
+feedback_subject_line: PICK8CHU's blog of things
 
-feedback_email: tomjoht@gmail.com
+feedback_email: po00076@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true
