@@ -7,6 +7,7 @@ summary: "This is to remember how I made an google api app."
 sidebar: mydoc_sidebar
 permalink: android_google_map.html
 folder: mydoc
+comments: true
 ---
 
 ##  Create New Project With Google Maps Activity

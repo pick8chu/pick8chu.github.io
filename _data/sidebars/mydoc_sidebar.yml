@@ -2,8 +2,8 @@
 
 entries:
 - title: sidebar
-  product: pick8chu
-  version: 0.0.1
+  #product: pick8chu
+  #version: 0.0.1
   folders:
 
   - title:
@@ -19,6 +19,15 @@ entries:
       output: pdf
       type: frontmatter
 
+  - title: About
+    output: web, pdf
+    folderitems:
+
+    - title: Home
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
   - title: Android
     output: web,pdf
     folderitems:
@@ -26,16 +35,14 @@ entries:
     - title: Start with Google Map API
       url: /android_google_map.html
       output: web, pdf
-      type: homepage
 
   - title: Overview
     output: web, pdf
     folderitems:
 
     - title: Get started
-      url: /index.html
+      url: /index_org.html
       output: web, pdf
-      type: homepage
 
     - title: Introduction
       url: /mydoc_introduction.html

@@ -235,8 +235,8 @@ th {
 
 @media print {
     *,
-    :after,
-    :before {
+     :after,
+     :before {
         /*color:#000!important;*/
         /*background:0 0!important*/
         ;
@@ -3689,7 +3689,7 @@ fieldset[disabled] .btn-default:hover {
 
 .btn-default .badge {
     color: #fff;
-    background-color: #333
+    /* background-color: #333 */
 }
 
 .btn-primary {
@@ -4320,11 +4320,9 @@ tbody.collapse.in {
     padding-left: 12px
 }
 
-.btn-group.open .dropdown-toggle {
-}
+.btn-group.open .dropdown-toggle {}
 
-.btn-group.open .dropdown-toggle.btn-link {
-}
+.btn-group.open .dropdown-toggle.btn-link {}
 
 .btn .caret {
     margin-left: 0
@@ -5355,12 +5353,12 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 }
 
 .navbar-inverse .navbar-toggle {
-    border-color: #333
+    border-color: #808080
 }
 
 .navbar-inverse .navbar-toggle:focus,
 .navbar-inverse .navbar-toggle:hover {
-    background-color: #333
+    background-color: #9e9165
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
@@ -6892,8 +6890,7 @@ button.close {
         width: 600px;
         margin: 30px auto
     }
-    .modal-content {
-    }
+    .modal-content {}
     .modal-sm {
         width: 300px
     }
@@ -7162,7 +7159,6 @@ button.close {
     border-right-width: 0;
     border-left-color: #fff
 }
-
 
 @media screen and (min-width:768px) {
     .carousel-control .glyphicon-chevron-left,

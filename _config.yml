@@ -12,7 +12,7 @@ site_title: PICK8CHU's blog of things
 company_name: N/A
 # this appears in the footer
 
-github_editme_path: pick8chu/
+github_editme_path: pick8chu/pick8chu.github.io/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 # gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
@@ -102,9 +102,9 @@ defaults:
 sidebars:
 - home_sidebar
 - mydoc_sidebar
-- product1_sidebar
-- product2_sidebar
-- other
+#- product1_sidebar
+#- product2_sidebar
+#- other
 
 description: "Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features."
 # the description is used in the feed.xml file
