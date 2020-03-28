@@ -8,7 +8,7 @@ search: exclude
   {% for post in site.posts %}
   {% unless post.search == "exclude" %}
   <url>
-    <loc>{{site.url}}{{post.url}}</loc>
+    <loc>{{site.url}}{{post.url | remove: 'index.html'}}</loc>
   </url>
   {% endunless %}
   {% endfor %}
