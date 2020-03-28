@@ -2,7 +2,6 @@
 title: Making an app with Google map API
 keywords: android, app, google map
 last_updated: March 26, 2020
-tags: []
 summary: "This is to remember how I made an google api app."
 sidebar: mydoc_sidebar
 permalink: android_google_map.html

@@ -12,7 +12,7 @@ site_title: PICK8CHU's blog of things
 company_name: N/A
 # this appears in the footer
 
-github_editme_path: pick8chu/pick8chu.github.io/master/
+github_editme_path: pick8chu/pick8chu.github.io/blob/master/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 # gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
@@ -33,9 +33,9 @@ exclude:
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: PICK8CHU's blog of things
+#feedback_subject_line: PICK8CHU's blog of things
 
-feedback_email: po00076@gmail.com
+#feedback_email: po00076@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true
@@ -45,7 +45,7 @@ feedback_email: po00076@gmail.com
 # if you uncomment the previous line, it changes the Feedback text
 
 # feedback_link: "http://helpy.io/"
-# if you uncomment the previous line, it changes where the feedback link points to
+# if you uncomment the previous line, it changes where the feedback link points to# if you uncomment the previous line, it changes where the feedback link points to
 
 highlighter: rouge
 # library used for syntax highlighting
