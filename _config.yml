@@ -35,7 +35,7 @@ exclude:
 
 #feedback_subject_line: PICK8CHU's blog of things
 
-#feedback_email: po00076@gmail.com
+feedback_email: po00076@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true
