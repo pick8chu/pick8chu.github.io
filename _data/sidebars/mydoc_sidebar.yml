@@ -44,6 +44,11 @@ entries:
       url: /android_custom_infowindow_for_google_map.html
       output: web, pdf
 
+    - title: Find current location on google map
+      url: /android_current_location_for_google_map.html
+      output: web, pdf
+
+
 #  - title: Overview
 #    output: web, pdf
 #    folderitems:

@@ -23,7 +23,7 @@ This is a simple example of setting a marker on google map.
 - [addMarker](https://developers.google.com/maps/documentation/android-sdk/marker#add_a_marker ): Adding a marker with the option. 
 - [MarkerOption](https://developers.google.com/android/reference/com/google/android/gms/maps/model/MarkerOptions ): Settings for the marker.
 
-Simply say, 'addMarker' function get parameter of <MarkerOption> type, and return <Marker>. In marker option, you could set things such as position, title, or snippet(body).
+Simply say, 'addMarker' function get parameter of \<MarkerOption\> type, and return \<Marker\>. In marker option, you could set things such as position, title, or snippet(body).
 
 ###  Example
 
