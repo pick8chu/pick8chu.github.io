@@ -551,3 +551,8 @@ I hope all these were somewhat helpful to you.
 **Those menu items that you added dynamically won't be saved, if you want to save them, you will have to use some kind of database like 'SQLite'.** I will try to cover this part later on, it's quite simple. 
 
 It's quite late already here, I'm done for today. Have a good day :)
+
+
+
+***Ah, [here](https://github.com/pick8chu/android_navigation_drawer_sample) is the github repository of this project.***
+
