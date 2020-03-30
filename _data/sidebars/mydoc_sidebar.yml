@@ -48,6 +48,10 @@ entries:
       url: /android_current_location_for_google_map.html
       output: web, pdf
 
+    - title: Add Navigation drawer and add/remove menu items dynamically
+      url: /android_navigation_drawer.html
+      output: web, pdf
+
 
 #  - title: Overview
 #    output: web, pdf
