@@ -157,9 +157,12 @@ th {
 }
 
 table {
-    max-width: 90%;
+	max-width: 90%;
+    min-width: 60%;
     margin-bottom: 20px;
     border: 1px solid #dedede;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 table>thead>tr>th,
@@ -655,7 +658,7 @@ a[data-toggle] {
 }
 
 .summary:before {
-    content: "Summary: ";
+    content: "   ";
     font-weight: bold;
 }
 

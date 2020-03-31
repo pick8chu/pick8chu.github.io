@@ -30,6 +30,9 @@ layout: default
 
 <div class="post-content">
 
+   {% if page.last_updated %}
+    <div class="date">{{page.last_updated}}</div>
+   {% endif %}
    {% if page.summary %}
     <div class="summary">{{page.summary}}</div>
    {% endif %}

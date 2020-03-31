@@ -1,7 +1,17 @@
 .summary {
-    color: #CCAD81;
+    color: rgb(143, 113, 71);
     border-left: 5px solid #805C2A;
     font-size: 16px;
+}
+
+.date:before {
+    content: "Last update : ";
+}
+
+.date {
+    color: #5e5e5e;
+    text-align: right;
+    font-size: 12px;
 }
 
 h1 {

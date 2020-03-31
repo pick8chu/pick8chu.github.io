@@ -52,6 +52,10 @@ entries:
       url: /android_navigation_drawer.html
       output: web, pdf
 
+    - title: Android App Database - SQLite
+      url: /android_sqlite_db.html
+      output: web, pdf
+
 
 #  - title: Overview
 #    output: web, pdf

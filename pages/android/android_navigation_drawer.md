@@ -1,6 +1,6 @@
 ---
 title: How to add a navigation drawer and add/remove menu items dynamically
-last_updated: March 31, 2020
+last_updated: March 30, 2020
 keywords: android, app, google map, navigation drawer, dynamical menu
 sidebar: mydoc_sidebar
 comments: true
