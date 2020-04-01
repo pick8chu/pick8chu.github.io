@@ -32,6 +32,15 @@ entries:
       url: /about_contact_me.html
       output: web, pdf
 
+      subfolders:
+      - title: Thoughts
+        output: web
+        subfolderitems:
+
+        - title: Boredom
+          url: /about_thoughts_2020-04-01.html
+          output: web
+
   - title: Android
     output: web,pdf
     folderitems:
