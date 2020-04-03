@@ -1,6 +1,6 @@
 ---
 title: Boredom
-keywords: android, app, google map
+keywords:
 last_updated: April 1, 2020
 sidebar: mydoc_sidebar
 permalink: about_thoughts_2020-04-01.html
