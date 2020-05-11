@@ -1,14 +1,16 @@
 ---
-title: How to add a navigation drawer and add/remove menu items dynamically
-last_updated: March 30, 2020
-keywords: android, app, google map, navigation drawer, dynamical menu
+title: Algorithm Overview
+last_updated: May 11, 2020
+keywords: algorithm
 sidebar: mydoc_sidebar
 comments: true
-summary: "I know there is a given project with a navigation drawer, but I just wanted to make a tutorial for whoever wanna make it over the existing project. This is tutorial of how to add a navigation drawer on your project. I will explain how to add a navigation drawer, and also about adding or removing menu items dynamically"
 permalink: algorithm-overview.html
 ---
 
-## #. Before started
+## #. Algorithm
+blah blah
+
+I'll change it once i get home... hopefully lol
 
 ### #. Make an empty project
 
