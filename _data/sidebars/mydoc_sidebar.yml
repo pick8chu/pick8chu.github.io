@@ -69,6 +69,10 @@ entries:
     output: web,pdf
     folderitems:
     
+    - title: Contact Me
+      url: /about_contact_me.html
+      output: web, pdf
+      
       subfolders:
       - title: Greedy Algorithm
         output: web
