@@ -4,14 +4,14 @@ last_updated: May 11, 2020
 keywords: android, app, google map, navigation drawer, dynamical menu
 sidebar: mydoc_sidebar
 comments: true
-summary: "Original Problem : https://www.acmicpc.net/problem/1931"
+summary: "Moderate level of greedy algorithm exercise"
 permalink: algorithm-greedy-baekjoon_1931.html
 
 ---
 
 ## #. Problem
 
-Original Problem : https://www.acmicpc.net/problem/1931
+Original Problem : [https://www.acmicpc.net/problem/1931](https://www.acmicpc.net/problem/1931)
 
 ## 1. Solution
 
