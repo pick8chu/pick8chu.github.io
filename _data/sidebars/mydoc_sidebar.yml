@@ -75,9 +75,12 @@ entries:
       
       subfolders:
       - title: Greedy Algorithm
-        url: /algorithm-greedy-overview.html
         output: web
         subfolderitems:
+
+        - title: Greedy Algorithm Overview
+          url: /algorithm-greedy-overview.html
+          output: web
 
         - title: Assigning Meeting Room
           url: /algorithm-greedy-baekjoon_1931.html
