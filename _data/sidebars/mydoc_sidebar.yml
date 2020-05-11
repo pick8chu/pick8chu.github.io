@@ -75,7 +75,7 @@ entries:
         subfolderitems:
 
         - title: Assigning Meeting Room
-          url: /greedy/baekjoon_1931
+          url: /greedy/baekjoon_1931.html
           output: web
 
 #  - title: Overview
