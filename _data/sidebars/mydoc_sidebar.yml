@@ -69,8 +69,8 @@ entries:
     output: web,pdf
     folderitems:
     
-    - title: Contact Me
-      url: /about_contact_me.html
+    - title: Algorithm Overview
+      url: /algorithm-overview.html
       output: web, pdf
       
       subfolders:
@@ -79,7 +79,7 @@ entries:
         subfolderitems:
 
         - title: Assigning Meeting Room
-          url: /greedy-baekjoon_1931.html
+          url: /algorithm-greedy-baekjoon_1931.html
           output: web
 
 #  - title: Overview
