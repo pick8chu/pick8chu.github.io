@@ -65,6 +65,18 @@ entries:
       url: /android_sqlite_db.html
       output: web, pdf
 
+  - title: Algorithm
+    output: web,pdf
+    folderitems:
+    
+      subfolders:
+      - title: Greedy Algorithm
+        output: web
+        subfolderitems:
+
+        - title: Assigning Meeting Room
+          url: /greedy/baekjoon_1931
+          output: web
 
 #  - title: Overview
 #    output: web, pdf
