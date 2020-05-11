@@ -5,7 +5,7 @@ keywords: android, app, google map, navigation drawer, dynamical menu
 sidebar: mydoc_sidebar
 comments: true
 summary: "I know there is a given project with a navigation drawer, but I just wanted to make a tutorial for whoever wanna make it over the existing project. This is tutorial of how to add a navigation drawer on your project. I will explain how to add a navigation drawer, and also about adding or removing menu items dynamically"
-permalink: greedy-baekjoon_1931.html
+permalink: algorithm-greedy-baekjoon_1931.html
 ---
 
 ## #. Before started
