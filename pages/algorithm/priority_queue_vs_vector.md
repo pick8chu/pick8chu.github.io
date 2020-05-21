@@ -19,11 +19,11 @@ So, last few days, I've been thinking about my job and title. I always introduce
 \\
 Of course this is my understanding after some researches, and it might not be accurate. 
 
-
+\\
 \\
 What my company does is, making a website or app for other companies, so called SI(System Integration). In those process, one has to understand the domain first to see what kind of constraints that we might have. Also, **it's important to understand the differences of many different database, programming languages**, and so on. That is because, to make a website, traditionally, we need to have 1. database, 2. server(back-end), and 3. web(front-end). This means, you will use at least 3 different languages. 
 
-
+\\
 \\
 To summarize, 
 
@@ -31,15 +31,15 @@ To summarize,
 2. Choosing frameworks or languages for those 3 different layer(database, server, and web)
 
 would be important. **When one chooses frameworks or languages, one has to consider many aspects, mostly if those would be well connected, and also make a good fit with constraints of domain knowledge.**
-
+\\
 \\
 So as you can assume, what we do is software engineering. However, my position is developing those concepts into codes for now. As time goes by, I will start designing some parts of project deciding which database and frameworks we'll be using and so on. But right now, my job is making more efficient code with, and I think I'm not really doing a great job. So far, I have been doing great on making things done, but without focusing on efficiency nor optimization. Therefore, I started to think that I want to be better at those.  
 
-
+\\
 \\
 That's why I started to compare Priority queue and Sorted vector to see when to use what.
 
-
+\\
 \\
 ## 1. Experiment
 
@@ -226,7 +226,7 @@ int main() {
 }
 ```
 \\
-
+\\
 
 ## 2. Epilogue 
 
@@ -235,6 +235,6 @@ As the verdict,
 1. When you have to sort whenever you push elements : priority queue is way efficient.
 2. However, all you need is 1 time sort at the end: vector is better.
 
-
+\\
 \\
 Interesting result, but the result seems pretty obvious.
