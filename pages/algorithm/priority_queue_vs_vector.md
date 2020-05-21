@@ -234,7 +234,6 @@ As the verdict,
 
 1. When you have to sort whenever you push elements : priority queue is way efficient.
 2. However, all you need is 1 time sort at the end: vector is better.
-
 <br />
 <br />
-Interesting result, but the result seems pretty obvious.
+Interesting result, but the result seems pretty predictable since they were made for different purposes.
