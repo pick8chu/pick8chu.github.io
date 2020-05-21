@@ -116,7 +116,7 @@ int main() {
 	}
 
 	printf("\n-------------------------------------------\n");
-	printf("3. vector with sort\n");
+	printf("3. vector with sort only once at the end\n");
 
 	start = clock();
 
@@ -147,7 +147,7 @@ int main() {
 
 
 	printf("\n-------------------------------------------\n");
-	printf("4. vector with sort option\n");
+	printf("4. vector with sort option only once at the end\n");
 
 	start = clock();
 
@@ -182,38 +182,38 @@ int main() {
 
 	start = clock();
 
-	vector<int> pq_v2;
+	vector<int> pq_v3;
 
 	for (int i = 0; i < 100; i++) {
-		pq_v2.push_back(9);
-		sort(pq_v2.begin(), pq_v2.end(), sortOption1);
-		pq_v2.push_back(7);
-		sort(pq_v2.begin(), pq_v2.end(), sortOption1);
-		pq_v2.push_back(5);
-		sort(pq_v2.begin(), pq_v2.end(), sortOption1);
-		pq_v2.push_back(3);
-		sort(pq_v2.begin(), pq_v2.end(), sortOption1);
-		pq_v2.push_back(1);
-		sort(pq_v2.begin(), pq_v2.end(), sortOption1);
-		pq_v2.push_back(2);
-		sort(pq_v2.begin(), pq_v2.end(), sortOption1);
-		pq_v2.push_back(4);
-		sort(pq_v2.begin(), pq_v2.end(), sortOption1);
-		pq_v2.push_back(6);
-		sort(pq_v2.begin(), pq_v2.end(), sortOption1);
-		pq_v2.push_back(8);
-		sort(pq_v2.begin(), pq_v2.end(), sortOption1);
+		pq_v3.push_back(9);
+		sort(pq_v3.begin(), pq_v3.end(), sortOption1);
+		pq_v3.push_back(7);
+		sort(pq_v3.begin(), pq_v3.end(), sortOption1);
+		pq_v3.push_back(5);
+		sort(pq_v3.begin(), pq_v3.end(), sortOption1);
+		pq_v3.push_back(3);
+		sort(pq_v3.begin(), pq_v3.end(), sortOption1);
+		pq_v3.push_back(1);
+		sort(pq_v3.begin(), pq_v3.end(), sortOption1);
+		pq_v3.push_back(2);
+		sort(pq_v3.begin(), pq_v3.end(), sortOption1);
+		pq_v3.push_back(4);
+		sort(pq_v3.begin(), pq_v3.end(), sortOption1);
+		pq_v3.push_back(6);
+		sort(pq_v3.begin(), pq_v3.end(), sortOption1);
+		pq_v3.push_back(8);
+		sort(pq_v3.begin(), pq_v3.end(), sortOption1);
 	}
 
 	endTime = clock();
 
 	printf("    execution time : %10f\n", endTime - start);
 
-	for (auto i : pq_v2) {
+	for (auto i : pq_v3) {
 		printf("%4d->", i);
 	}
 
-
+	
 	printf("\n-------------------------------------------");
 	printf("-------------------------------------------\n");
 	printf("Verdict: \n");
@@ -222,18 +222,43 @@ int main() {
 	printf("Therefore, it depends on usage, when you have to sort elements as you push them then use Priority queue.\n");
 	printf("But all you need is one sort after pushing all the elements, then vector is better.\n");
 
+	/*
+Vector sort is twice faster than priority queue only when you sort it after pushing all elements. However, when you have to sort everytime you push elements, pririty queue shows far better efficiency. Therefore, it depends on usage, when you have to sort elements as you push them then use Priority queue. But all you need is one sort after pushing all the elements, then vector is better.
+	*/
+
+
 	return 0;
 }
 ```
 <br />
 <br />
+Result : 
+```
+1. priority queue with 'Greater' comparator
+    execution time :   3.000000
+-------------------------------------------
+2. priority queue with 'less' comparator
+    execution time :   3.000000
+-------------------------------------------
+3. vector with sort only once at the end
+    execution time :   2.000000
+-------------------------------------------
+4. vector with sort option only once at the end
+    execution time :   2.000000
+-------------------------------------------
+5. vector with sort as PQ
+    execution time : 164.000000
+-------------------------------------------
+
+```
+
 
 ## 2. Epilogue 
 
 As the verdict, 
 
-1. When you have to sort whenever you push elements : priority queue is way efficient.
-2. However, all you need is 1 time sort at the end: vector is better.
+1. When you have to sort whenever you push elements : priority queue is way efficient. (result 1 vs 6)
+2. However, all you need is 1 time sort at the end: vector is better. (result 1 vs 3)
 <br />
 <br />
 Interesting result, but the result seems pretty predictable since they were made for different purposes.
