@@ -72,6 +72,10 @@ entries:
     - title: Algorithm Overview
       url: /algorithm-overview.html
       output: web, pdf
+    
+    - title: Priority Queue vs Vector
+      url: /priority_queue_vs_vector.html
+      output: web, pdf
       
       subfolders:
       - title: Greedy Algorithm
