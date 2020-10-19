@@ -76,6 +76,10 @@ entries:
     - title: Priority Queue vs Vector
       url: /priority_queue_vs_vector.html
       output: web, pdf
+    
+    - title: Prime Number
+      url: /prime_number.html
+      output: web, pdf
       
       subfolders:
       - title: Greedy Algorithm
