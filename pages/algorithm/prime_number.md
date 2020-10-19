@@ -84,7 +84,7 @@ int count = 0;
 for(int i = 2; i <= N; i++){
 	if(prime[i] == false){
 		for(int j = i+i; j <= N; j += i){
-			prime[j] = true;
+        	prime[j] = true;
 		}
 	}
 }
