@@ -73,6 +73,27 @@ bool isPrime(int num){
 
 
 
-## 2. Epilogue 
+## 2. To figure out if multiple variables are prime.
+
+It's convenient to have a sorted array in this situation, which you can make it as such:
+
+```c++
+bool prime[N]= {false,};
+int count = 0;
+
+for(int i = 2; i <= N; i++){
+	if(prime[i] == false){
+		for(int j = i+i; j <= N; j += i){
+			prime[j] = true;
+		}
+	}
+}
+```
+
+This code won't work due to 'N' in C++, you have to statically assign number :pensive:
+
+
+
+## 3. Epilogue 
 
 This really gave me thoughts on how much it could be easy if you know some mathematic stuff..
