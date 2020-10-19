@@ -82,11 +82,11 @@ bool prime[N]= {false,};
 int count = 0;
 
 for(int i = 2; i <= N; i++){
-	if(prime[i] == false){
-		for(int j = i+i; j <= N; j += i){
-        	prime[j] = true;
-		}
-	}
+    if(prime[i] == false){
+        for(int j = i+i; j <= N; j += i){
+            prime[j] = true;
+        }
+    }
 }
 ```
 
