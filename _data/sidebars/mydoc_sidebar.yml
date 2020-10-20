@@ -82,7 +82,7 @@ entries:
       output: web, pdf
     
     - title: Etc
-      url: /etc.html
+      url: /algorithm-etc.html
       output: web, pdf
       
       subfolders:
