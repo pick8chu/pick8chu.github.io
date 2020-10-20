@@ -80,6 +80,10 @@ entries:
     - title: Prime Number
       url: /prime_number.html
       output: web, pdf
+    
+    - title: Etc
+      url: /etc.html
+      output: web, pdf
       
       subfolders:
       - title: Greedy Algorithm
