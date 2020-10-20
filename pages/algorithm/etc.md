@@ -4,7 +4,7 @@ last_updated: Oct 20, 2020
 keywords: algorithm
 sidebar: mydoc_sidebar
 comments: true
-permalink: etc.html
+permalink: algorithm-etc.html
 summary: Every other stuff -too tiny to make a new page- 
 
 ---
