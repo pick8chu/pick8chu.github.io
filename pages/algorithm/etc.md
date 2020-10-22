@@ -16,7 +16,7 @@ summary: Every other stuff -too tiny to make a new page-
 
 #### 1. useful functions
 
-<algorithm>
+\<algorithm>
 
 - std::sort(v.begin(), v.end())
 - std::unique(v.begin(), v.end())
