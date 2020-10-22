@@ -7,12 +7,15 @@ comments: true
 permalink: algorithm-etc.html
 summary: Every other stuff -too tiny to make a new page- 
 
+
 ---
+
 ## C++
 
 ### Vector
 
 #### 1. useful functions
+
 <algorithm>
 
 - std::sort(v.begin(), v.end())
@@ -20,6 +23,7 @@ summary: Every other stuff -too tiny to make a new page-
 - it moves duplicated elements on the back, and returns the number of the first duplicated elements.
 - ! The vector has to be sorted.
 - For example, { 0, 1, 1, 2, 2, 2, 3} => {0, 1, 2, 3, 1, 2, 2, 3} and returns 5. Therefore, you could use it as such:
+
 ```c++
     std::sort(v.begin(), v.end());
     v.resize(std::unique(v.begin(), v.end()) - v.begin());
@@ -72,4 +76,3 @@ int main() {
     return 0; 
 }
 ```
-
