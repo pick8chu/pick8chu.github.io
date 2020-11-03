@@ -6,6 +6,8 @@ sidebar: mydoc_sidebar
 comments: true
 permalink: 3_sum.html
 summary: To compare my method and someone else's. 
+
+
 ---
 
 ## #. Problem
