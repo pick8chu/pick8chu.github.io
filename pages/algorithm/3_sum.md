@@ -1,12 +1,11 @@
 ---
-title: leetcode: 3 sum
+title: leetcode- 3 sum
 last_updated: Nov 3, 2020
 keywords: algorithm
 sidebar: mydoc_sidebar
 comments: true
 permalink: 3_sum.html
 summary: To compare my method and someone else's. 
-
 
 ---
 
