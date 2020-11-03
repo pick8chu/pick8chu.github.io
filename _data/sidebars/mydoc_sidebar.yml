@@ -81,6 +81,10 @@ entries:
       url: /prime_number.html
       output: web, pdf
     
+    - title: leetcode- 3 sum
+      url: /3_sum.html
+      output: web, pdf
+    
     - title: Etc
       url: /algorithm-etc.html
       output: web, pdf
