@@ -147,4 +147,4 @@ And this one only gives us 36 ms.
 What I've learned from this exercise:
 
 - The more you know you would come up with better ideas.
-- Bit operations can be useful. (&, |, ^)
+- Bit operations can be useful. (&, \|, ^)
