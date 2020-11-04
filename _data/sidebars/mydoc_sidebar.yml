@@ -81,10 +81,6 @@ entries:
       url: /prime_number.html
       output: web, pdf
     
-    - title: leetcode- 3 sum
-      url: /3_sum.html
-      output: web, pdf
-    
     - title: Etc
       url: /algorithm-etc.html
       output: web, pdf
@@ -101,6 +97,19 @@ entries:
         - title: Assigning Meeting Room
           url: /algorithm-greedy-baekjoon_1931.html
           output: web
+
+      subfolders:
+      - title: leetcode
+        output: web
+        subfolderitems:
+
+        - title: 3 sum
+          url: /3_sum.html
+          output: web, pdf
+
+        - title: single_number
+          url: /single_number.html
+          output: web, pdf
 
 #  - title: Overview
 #    output: web, pdf
