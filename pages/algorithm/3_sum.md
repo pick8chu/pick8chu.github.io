@@ -19,7 +19,6 @@ https://leetcode.com/problems/3sum/
 
 So, I firstly tried with 3 for loops, and of course I failed. After that, I tried with 2 for loop + binary search. Since 'nums.length <= 3000', it ought to work, it'd be O(N^2 * log N), which will be less than 1 min approximately.
 
-### a. code
 
 ```c++
 #include <algorithm>
