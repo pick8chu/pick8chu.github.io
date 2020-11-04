@@ -98,7 +98,6 @@ entries:
           url: /algorithm-greedy-baekjoon_1931.html
           output: web
 
-      subfolders:
       - title: leetcode
         output: web
         subfolderitems:
