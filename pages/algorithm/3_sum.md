@@ -249,7 +249,7 @@ And this one only gives us 76 ms.
 
 
 
-## 3. Epilogue 
+## 4. Epilogue 
 
 What I've learned from this exercise:
 
