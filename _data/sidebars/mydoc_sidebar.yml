@@ -106,8 +106,12 @@ entries:
           url: /3_sum.html
           output: web, pdf
 
-        - title: single_number
+        - title: single number
           url: /single_number.html
+          output: web, pdf
+
+        - title: buy and sell stock 2
+          url: /buy_and_sell_stock_2.html
           output: web, pdf
 
 #  - title: Overview
