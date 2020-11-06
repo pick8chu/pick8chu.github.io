@@ -114,6 +114,10 @@ entries:
           url: /buy_and_sell_stock_2.html
           output: web, pdf
 
+        - title: rotate_array
+          url: /rotate_array.html
+          output: web, pdf
+
 #  - title: Overview
 #    output: web, pdf
 #    folderitems:
