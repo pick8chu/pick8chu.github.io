@@ -5,11 +5,14 @@ keywords: algorithm
 sidebar: mydoc_sidebar
 comments: true
 permalink: fenwick.html
-summary: 
+summary: summarization of fenwick tree
 
 
 ---
 
+refer by;
+[1](https://minusi.tistory.com/entry/%ED%8E%9C%EC%9C%85-%ED%8A%B8%EB%A6%ACFenwick-Tree-Binary-Indexed-Tree)
+[2](https://uldada.tistory.com/5)
 
 ```c++
 /******************************************************************************
