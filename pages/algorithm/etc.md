@@ -76,3 +76,16 @@ int main() {
     return 0; 
 }
 ```
+
+### declaraion of functions in parameter
+
+[](int a, int b){
+    content;
+}
+
+```c++
+sort(arr.begin(), arr.end(), [](const int& a, const int& b){
+    return b < a;
+});
+```
+
