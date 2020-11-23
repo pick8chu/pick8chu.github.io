@@ -1,5 +1,5 @@
 ---
-title: algorithm course
+title: Algorithm course
 last_updated: Oct 24, 2020
 keywords: algorithm
 sidebar: mydoc_sidebar
