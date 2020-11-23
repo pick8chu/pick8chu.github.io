@@ -92,7 +92,7 @@ entries:
     - title: Etc
       url: /algorithm-etc.html
       output: web, pdf
-      
+    
       subfolders:
       - title: Greedy Algorithm
         output: web
