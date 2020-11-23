@@ -54,7 +54,7 @@ struct Node {
 
 ```c++
 // for example
-int upDownRightLeft[] = {{-1,0},{1,0},{0,1},{-1,0}}
+int upDownRightLeft[] = {{-1,0}, {1,0}, {0,1}, {-1,0}};
 
 for(int i = 0; i < 4; i++){
     int x += upDownRightLeft[0];
