@@ -180,7 +180,7 @@ int query(int index, int left, int right, int query_left, int query_right) {
 
 	//범위에 들어왔을때
 	return (query(index * 2, left, (left + right) / 2, query_left, query_right) +
-		query(index * 2, (left + right) / 2 + 1, right, query_left, query_right)) % 1000000007;
+		query(index * 2 + 1, (left + right) / 2 + 1, right, query_left, query_right));
 }
 
 
@@ -190,6 +190,7 @@ int query(int index, int left, int right, int query_left, int query_right) {
 */
 void init(int index, int left, int right) {
 	if (left == right) {
+		//hard to understand, so I recommend you to drawing a tree and try it
 		tree[index] = data[left];
 		return;
 	}
