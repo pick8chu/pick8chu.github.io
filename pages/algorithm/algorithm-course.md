@@ -39,6 +39,8 @@ struct Node {
 }
 ```
 
+------
+
 ## Day 3
 
 ### How to know if it's DP?
@@ -113,7 +115,7 @@ struct Node{
   - update : O(log N)
 
 
-
+------
 
 ## Things to remember
 
