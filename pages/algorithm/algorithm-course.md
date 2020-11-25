@@ -114,6 +114,92 @@ struct Node{
   - getting sections' sum : approximately, 2 (log (N-1) + 1) => O(log N)
   - update : O(log N)
 
+```c++
+// Segment tree example:
+// every node has to have its coverage, but in this example, parameter shows the coverage.
+
+
+/*
+	1. update
+	
+	index : 트리 노드 인덱스(tree 기준 != array 기준)
+	left, right : 노드가 커버하는 범위
+	targer : 변경하고자 하는 인덱스(array 기준)
+	value : 변경하고자 하는 값
+*/
+void update(int index, int left, int right, int target, int value) {
+	// 이 두개는 end condition
+
+	// 범위를 벗어났다면 끝
+	if (target < left || right < target) {
+		return;
+	}
+	// 도착
+	if (left == right) { 
+		tree[index] = value; 
+		return;
+	}
+
+	// 범위 안에 들어가는 경우, left, right로 보내본다.
+	// coverage : left ~ (left+right)/2
+	update(index * 2, left, (left + right) / 2, target, value);		
+	// coverage : (left+right)/2 + 1 ~ right
+	update(index * 2 + 1, (left + right) / 2 + 1, right, target, value);	
+	
+	// 보내본 것이 다 끝나면 왼쪽, 오른쪽 값이 update가 되었을 것.
+	// 자식들의 노드 값을 가지고 자기 값을 변경한다.
+	tree[index] = tree[index * 2] + tree[index * 2 + 1];
+}
+// 이게 펜윅트리와 더 비슷하다
+/*
+void update(vector<long long> &tree, int node, int start, int end, int index, long long diff) {
+	if (index < start || index > end) return;
+	tree[node] = tree[node] + diff;
+	if (start != end) {
+		update(tree,node*2, start, (start+end)/2, index, diff);
+		update(tree,node*2+1, (start+end)/2+1, end, index, diff);
+	}
+}
+*/
+
+
+
+/*
+	2. query
+	
+	index : 트리 노드 인덱스(tree 기준 != array 기준)
+	left, right : 노드가 커버하는 범위
+	query_left, query_right : 더셈을 구하고자 하는 구간
+*/
+//query_left, query_right 가 구해야하는 범위
+int query(int index, int left, int right, int query_left, int query_right) {
+	//범위를 완전히 벗어났을 때
+	if (left > query_right || right < query_left) return 0;
+	//범위에 들어갔을 때
+	if (query_left <= left && right <= query_right) return tree[index];
+
+	//범위에 들어왔을때
+	return (query(index * 2, left, (left + right) / 2, query_left, query_right) +
+		query(index * 2, (left + right) / 2 + 1, right, query_left, query_right)) % 1000000007;
+}
+
+
+/*
+	3. init
+	
+*/
+void init(int index, int left, int right) {
+	if (left == right) {
+		tree[index] = data[left];
+		return;
+	}
+	init(index * 2, left, (left + right) / 2);
+	init(index * 2 + 1, (left + right) / 2 + 1, right);
+	tree[index] = tree[index * 2] + tree[index * 2 + 1];
+	return;
+}
+
+```
 
 ------
 
