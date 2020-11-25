@@ -39,6 +39,78 @@ struct Node {
 }
 ```
 
+## Day 3
+
+### How to know if it's DP?
+
+- When you put the same parameter, it always give you the same value, it can be made with DP.
+- How to make is, to make those parameters as N-d array. For example, if the parameters are int a, int b, int c, then you can assign it to arr\[a\]\[b\]\[c\] to make it easy.
+- Time complexity of DP is at least the size of the DP array. (Cause it will fill all of those up)
+- When it's just getting sum of M th array in N, it's faster to go over once which will take M*N than making 2-D array with parameters.
+
+
+
+### Array (= vector)
+
+- O(1) to refer a data.
+
+- O(N) to insert/delete a data.
+
+  
+
+### Linked List 
+
+- O(N) to refer a data.
+
+- O(1) to insert/delete a data.  However, to insert/delete middle of the list, it has to go N times to get there first. So it practically it might take O(N).
+
+  
+
+### deque (double ended queue)
+
+- can be pushed or popped on both side.
+
+  
+
+### Priority Queue (When it's made of 1-D array using Binary Tree)
+
+- O(1) to refer a max data.
+- O(log N) to insert/delete a data. 
+- Insert on the end of the binary tree, and have to switch log N times in worst case. (with its parent)
+- Pop works as this; 
+  - pop the root
+  - put the last element to the root, and switch with its descendants to meet the condition.
+  - this will take log N times just like insert. 
+- On structure, you may imply like;
+
+```c++
+struct Node{
+    int a,b,c;
+    Node(int _a, int _b, int _c):a(_a),b(_b),c(_c){}
+    
+    // overriding comparator
+    bool operator<(const Node& t) const {
+        return /*my*/a > x.a;
+    }
+}
+```
+
+- Priority Queue vs. Sort
+  - Priority Queue : When you need to insert/delete often and all you need is max or min value of all data.
+  - Sort : If the dataset will not be changed or if the data has to be all sorted.
+
+
+
+### Segment Tree
+
+- [check this for visual aids](https://www.acmicpc.net/blog/view/9)
+
+- Every nodes contains information of its coverage.
+- Left node will contain its parent node's first half. **\[start, (start+end)/2\]**
+- Right node will contain its parent node's last half. **\[(start+end)/2 + 1, end\]**
+- Time Complexity
+  - getting sections' sum : approximately, 2 (log (N-1) + 1) => O(log N)
+  - update : O(log N)
 
 
 
@@ -79,3 +151,4 @@ for(int i = 0; i < 4; i++){
     N log_2N
     $$
 
+- You have to make sure why the solution you came up with is not working with reasons. If you don't know why it's not working, you would keep coming back thinking it might be right.
