@@ -107,7 +107,7 @@ struct Node{
 
 - [check this for visual aids](https://www.acmicpc.net/blog/view/9)
 
-- **Segment tree can be used in various ways. It's all up to, what it'll store on its parents node.**
+- **Segment tree can be used in various purposes. It's all up to what it'll store on its parents node.**
 
 - Every nodes contains information of its coverage.
 - Left node will contain its parent node's first half. **\[start, (start+end)/2\]**
