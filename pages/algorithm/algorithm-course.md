@@ -204,6 +204,10 @@ void init(int index, int left, int right) {
 
 ```
 
+### Hash map, set
+- By converting key value into hash value, it reduces referring cost to O(1).
+- However, if the number of key values are too high, hash values can be collide, and when it happenes it makes a link list on it → it may slow it down a bit.
+
 ------
 
 ## Things to remember
