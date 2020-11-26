@@ -354,9 +354,10 @@ int main() {
 - it can be used to find coprime.
   - for example, from 5/10, gcd of 5 and 10 is 5, and by dividing it to both numbers, it'll be 1/2.
 
-```c++
 
+```c++
 //[교육A-0004] 금괴 
+
 #include <queue>
 #include <iostream>
 
