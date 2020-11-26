@@ -210,6 +210,55 @@ void init(int index, int left, int right) {
 
 ------
 
+
+## Day 4
+
+### Stack
+
+- [Example Problem](https://www.acmicpc.net/problem/2493)
+- This can be used in many purposes, just have to be cleaver....
+
+```c++
+#include <iostream>
+#include <vector>
+#include <stack>
+
+using namespace std;
+
+int N, T;
+stack<pair<int, int>> s;
+vector<int> ans;
+
+int main() {
+    scanf("%d", &N);
+
+    ans.resize(N);
+    for (int i = 1; i <= N; i++) {
+        int temp;
+        scanf("%d", &temp);
+
+        while (!s.empty() && s.top().first <= temp) s.pop();
+        if (!s.empty()) ans[i-1] = s.top().second;
+        s.push(pair<int, int>(temp, i));
+    }
+
+    for(auto item : ans){
+        printf("%d ", item);
+    }
+
+	return 0;
+}
+```
+
+
+### 'Two pointer' can be very useful
+- it could either start with i = 0, j = 0, or i = 0, j = N.
+
+### Modular (%)
+- When the answer is get % of something, whenever you add or multiply, you can use % operation. 
+- However, for subtraction and division, you may not use % each time since (a / x) % y != (b / x) % y.
+------
+
 ## Things to remember
 
 - 10,000 depth of recursion usually takes 1 MB of stack memory.
