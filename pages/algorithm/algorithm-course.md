@@ -257,6 +257,133 @@ int main() {
 ### Modular (%)
 - When the answer is get % of something, whenever you add or multiply, you can use % operation. 
 - However, for subtraction and division, you may not use % each time since (a / x) % y != (b / x) % y.
+
+### Prime numbers(Aristotle)
+- Easy to remember, and understand.
+
+```c++
+// [연습A-0022] 소수경로 
+
+#include <queue>
+#include <algorithm>
+#include <iostream>
+#include <math.h>
+#include <string.h>
+
+using namespace std;
+
+struct MyStruct
+{
+	int startN, cnt;
+	MyStruct(int _start, int _cnt) :startN(_start), cnt(_cnt) {}
+};
+
+int T, startN, endN;
+bool prime[10000] = { true, };
+bool visited[10000];
+int ans, offset[] = { 1, 10 ,100, 1000 };
+queue<MyStruct> q;
+
+bool bfsFn(const MyStruct& tempS) {
+	for (int i = 0; i < 4; i++) {
+		// pow 대신에 offset으로 하는게 좋다.
+		// 까먹지 말것 1
+		int base = tempS.startN - tempS.startN/offset[i]%10*offset[i];
+		for (int j = 0; j < 10; j++) {
+			int temp = base + j * offset[i];
+			if (temp == endN) {
+				ans = tempS.cnt;
+				return true;
+			}
+			else if (!visited[temp] && prime[temp]) {
+				q.push(MyStruct(temp, tempS.cnt+1));
+				visited[temp];
+			}
+		}
+	}
+	return false;
+}
+
+int main() {
+	scanf("%d", &T);
+
+	for(int i = 0; i < 10000; i++){
+		prime[i] = true;
+	}
+
+	for (int i = 2; i < 10000; i++) {
+		if (prime[i]) {
+			for (int j = i * 2; j < 10000; j += i) {
+				prime[j] = false;
+			}
+		}
+	}
+	//1000 미만은 범위에서 벗어나니까 나중에 queue에 넣지 않도록
+	// 까먹지 말것 2
+	for (int i = 0; i < 1000; i++) {
+		prime[i] = false;
+	}
+
+	memset(visited, 0, sizeof(visited));
+	for (int loop = 1; loop <= T; loop++) {
+		scanf("%d%d", &startN, &endN);
+		
+		ans = 0;
+		visited[startN] = true;
+		
+		q.push(MyStruct(startN, 1));
+		while (!q.empty()) {
+			MyStruct tempS = q.front();
+			q.pop();
+			if (bfsFn(tempS)) {
+				queue<MyStruct>().swap(q);
+			}
+		}
+
+		printf("#%d %d\n", loop, startN == endN? 0:ans);
+	}
+
+	return 0;
+}
+```
+
+
+### GCD(greatest common dividor)
+- it can be used to find coprime.
+  - for example, from 5/10, gcd of 5 and 10 is 5, and by dividing it to both numbers, it'll be 1/2.
+```c++
+//[교육A-0004] 금괴 
+#include <queue>
+#include <iostream>
+
+using namespace std;
+
+int T, N, M, ans;
+
+int gcd(int a, int b) {
+	if (b == 0) return a;
+	else return gcd(b, a%b);
+}
+
+int main() {
+	scanf("%d", &T);
+
+	for (int loop = 1; loop <= T; loop++) {
+		scanf("%d%d", &N, &M);
+
+		int dividor = gcd(N%M, M);
+		// 금괴를 이러붙여 1개라고 생각하면 됩.
+		// 서로 서로소일 때, 자르는 갯수는 사람수-1이다.
+		// 여기서 * gcd 값을 하면 된다.
+		ans = (M / dividor - 1) * dividor;
+
+		printf("#%d %d\n", loop, ans);
+	}
+
+	return 0;
+}
+```
+
 ------
 
 ## Things to remember
