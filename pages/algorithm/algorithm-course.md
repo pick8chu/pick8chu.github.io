@@ -219,6 +219,7 @@ void init(int index, int left, int right) {
 - This can be used in many purposes, just have to be cleaver....
 
 ```c++
+
 #include <iostream>
 #include <vector>
 #include <stack>
@@ -262,6 +263,7 @@ int main() {
 - Easy to remember, and understand.
 
 ```c++
+
 // [연습A-0022] 소수경로 
 
 #include <queue>
@@ -351,7 +353,9 @@ int main() {
 ### GCD(greatest common dividor)
 - it can be used to find coprime.
   - for example, from 5/10, gcd of 5 and 10 is 5, and by dividing it to both numbers, it'll be 1/2.
+
 ```c++
+
 //[교육A-0004] 금괴 
 #include <queue>
 #include <iostream>
