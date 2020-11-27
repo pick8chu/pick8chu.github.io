@@ -391,6 +391,44 @@ int main() {
 
 ------
 
+## Day 5
+
+### Pascal's triangle
+
+- Super fast/easy way to get answer to combinations.
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+//This will be overflowed
+long long pas[100][100];
+
+int main()
+{
+    for(int i = 1; i < 100; i++){
+        //제일 처음과 마지막 값은 넣어주기.
+        pas[i][0] = pas[i][i] = 1;
+        for(int j = 1; j < i; j++){
+            pas[i][j] = pas[i-1][j-1] + pas[i-1][j];
+        }
+    }
+    
+    for(int i = 0; i < 100; i++){
+        pas[i][0] = pas[i][i] = 1;
+        for(int j = 0; j <= i; j++){
+            printf("%lld ", pas[i][j]);
+        }
+        printf("\n");
+    }
+    
+    return 0;
+}
+```
+
+------
+
 ## Things to remember
 
 - 10,000 depth of recursion usually takes 1 MB of stack memory.
