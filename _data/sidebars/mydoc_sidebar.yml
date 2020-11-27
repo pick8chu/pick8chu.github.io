@@ -126,6 +126,14 @@ entries:
           url: /rotate_array.html
           output: web, pdf
 
+      - title: baekjoon
+        output: web
+        subfolderitems:
+
+        - title: 2887 - 행성터널
+          url: /MST_planets.html
+          output: web, pdf
+
 #  - title: Overview
 #    output: web, pdf
 #    folderitems:
