@@ -37,7 +37,7 @@ summary: Every other stuff -too tiny to make a new page-
 
 ### Thoughts about data type Char
 
-- So, as everyone knows, size of char is 8 bytes. However, if you look at an ascii table, it only has 0 to 127, so total 128, which is only 2^7. I honestly don't know why it uses 8 bytes, maybe it's just easy to remember that way. (Please make a comment if you know the history.) Anyways, this means -128 to -1 doesn't mean anything while you are coding (maybe it has differnt meaning in it but idk atm). When you wanna encode your string, you could use it like this:
+- So, as everyone knows, size of char is 8 bits = 1 byte. However, if you look at an ascii table, it only has 0 to 127, so total 128, which is only 2^7. I honestly don't know why it uses 1 byte, maybe it's just easy to remember that way. (Please make a comment if you know the history.) Anyways, this means -128 to -1 doesn't mean anything while you are coding (maybe it has differnt meaning in it but idk atm). When you wanna encode your string, you could use it like this:
 
 ```c++
 #include <iostream>
