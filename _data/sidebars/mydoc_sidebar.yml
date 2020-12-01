@@ -85,6 +85,10 @@ entries:
       url: /fenwick.html
       output: web, pdf
     
+    - title: Permutation
+      url: /permutation.html
+      output: web, pdf
+    
     - title: Algorithm Course
       url: /algorithm-course.html
       output: web, pdf
