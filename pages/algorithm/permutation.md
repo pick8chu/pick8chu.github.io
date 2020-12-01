@@ -70,6 +70,7 @@ void permu(vector<int> nums, int curIdx){
     if(curIdx == nums.size()) return;
     
     // try to write it down how it works, it helps
+    // notice that 'i' is not 'curIdx+1'
     for(int i = curIdx; i < remain.size(); i++){
         swap(nums[i], nums[curIdx]);
         permu(nums, curIdx+1);
