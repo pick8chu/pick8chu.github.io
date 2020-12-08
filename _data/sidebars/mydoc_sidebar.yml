@@ -41,6 +41,18 @@ entries:
           url: /about_thoughts_2020-04-01.html
           output: web
 
+  - title: Study
+    output: web,pdf
+    folderitems:
+
+    - title: RESTful API
+      url: /restful_api.html
+      output: web, pdf
+
+    - title: WAS
+      url: /was.html
+      output: web, pdf
+
   - title: Android
     output: web,pdf
     folderitems:
