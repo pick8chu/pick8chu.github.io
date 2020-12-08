@@ -1,6 +1,6 @@
 ---
-title: "Home"
-keywords: homepage
+title: "RESTful API"
+keywords: study
 sidebar: mydoc_sidebar
 permalink: restful_api.html
 ---
