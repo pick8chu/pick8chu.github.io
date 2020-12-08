@@ -142,6 +142,10 @@ entries:
           url: /rotate_array.html
           output: web, pdf
 
+        - title: Kth Smallest Element in a BST
+          url: /Kth_Smallest_Element_in_a_BST.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
