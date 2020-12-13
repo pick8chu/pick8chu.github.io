@@ -142,8 +142,12 @@ entries:
           url: /rotate_array.html
           output: web, pdf
 
-        - title: Kth Smallest Element in a BST
+        - title: Kth Smallest Element in a BST (inorder)
           url: /Kth_Smallest_Element_in_a_BST.html
+          output: web, pdf
+
+        - title: Coin Change (DP)
+          url: /coin_change.html
           output: web, pdf
 
       - title: baekjoon
