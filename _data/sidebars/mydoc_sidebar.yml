@@ -150,6 +150,10 @@ entries:
           url: /coin_change.html
           output: web, pdf
 
+        - title: Palindrome Partitioning (DFS)
+          url: /palindrome_partitioning.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
