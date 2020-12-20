@@ -154,6 +154,10 @@ entries:
           url: /palindrome_partitioning.html
           output: web, pdf
 
+        - title: Cherry Pickup II (DP w/ 3D matrix)
+          url: /cherry_pickup_ii.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
