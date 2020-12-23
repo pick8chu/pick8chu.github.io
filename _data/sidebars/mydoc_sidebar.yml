@@ -101,6 +101,10 @@ entries:
       url: /permutation.html
       output: web, pdf
     
+    - title: Trie Algorithm
+      url: /trie_algorithm.html
+      output: web, pdf
+    
     - title: Algorithm Course
       url: /algorithm-course.html
       output: web, pdf
