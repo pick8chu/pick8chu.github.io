@@ -166,6 +166,10 @@ entries:
           url: /largest-rectangle-in-histogram.html
           output: web, pdf
 
+        - title: Pseudo-palindromic Paths In a Binary Tree (Tree DFS + Bit Masking)
+          url: /pseudo-palindromic-paths-in-a-binary-tree.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
