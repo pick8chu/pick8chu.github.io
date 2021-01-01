@@ -41,6 +41,18 @@ entries:
           url: /about_thoughts_2020-04-01.html
           output: web
 
+  - title: Study
+    output: web,pdf
+    folderitems:
+
+    - title: RESTful API
+      url: /restful_api.html
+      output: web, pdf
+
+    - title: WAS
+      url: /was.html
+      output: web, pdf
+
   - title: Android
     output: web,pdf
     folderitems:
@@ -76,7 +88,31 @@ entries:
     - title: Priority Queue vs Vector
       url: /priority_queue_vs_vector.html
       output: web, pdf
-      
+    
+    - title: Prime Number
+      url: /prime_number.html
+      output: web, pdf
+    
+    - title: Fenwick Tree
+      url: /fenwick.html
+      output: web, pdf
+    
+    - title: Permutation
+      url: /permutation.html
+      output: web, pdf
+    
+    - title: Trie Algorithm
+      url: /trie_algorithm.html
+      output: web, pdf
+    
+    - title: Algorithm Course
+      url: /algorithm-course.html
+      output: web, pdf
+    
+    - title: Etc
+      url: /algorithm-etc.html
+      output: web, pdf
+    
       subfolders:
       - title: Greedy Algorithm
         output: web
@@ -89,6 +125,50 @@ entries:
         - title: Assigning Meeting Room
           url: /algorithm-greedy-baekjoon_1931.html
           output: web
+
+      - title: leetcode
+        output: web
+        subfolderitems:
+
+        - title: 3 sum
+          url: /3_sum.html
+          output: web, pdf
+
+        - title: single number
+          url: /single_number.html
+          output: web, pdf
+
+        - title: buy and sell stock 2
+          url: /buy_and_sell_stock_2.html
+          output: web, pdf
+
+        - title: rotate array
+          url: /rotate_array.html
+          output: web, pdf
+
+        - title: Kth Smallest Element in a BST (inorder)
+          url: /Kth_Smallest_Element_in_a_BST.html
+          output: web, pdf
+
+        - title: Coin Change (DP)
+          url: /coin_change.html
+          output: web, pdf
+
+        - title: Palindrome Partitioning (DFS)
+          url: /palindrome_partitioning.html
+          output: web, pdf
+
+        - title: Cherry Pickup II (DP w/ 3D matrix)
+          url: /cherry_pickup_ii.html
+          output: web, pdf
+
+      - title: baekjoon
+        output: web
+        subfolderitems:
+
+        - title: 2887 - 행성터널
+          url: /MST_planets.html
+          output: web, pdf
 
 #  - title: Overview
 #    output: web, pdf
