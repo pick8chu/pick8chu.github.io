@@ -162,6 +162,10 @@ entries:
           url: /cherry_pickup_ii.html
           output: web, pdf
 
+        - title: Largest Rectangle In Histogram (mono-Stack)
+          url: /largest-rectangle-in-histogram.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
