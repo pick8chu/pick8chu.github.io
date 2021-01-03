@@ -178,6 +178,14 @@ entries:
           url: /MST_planets.html
           output: web, pdf
 
+      - title: HackerRank
+        output: web
+        subfolderitems:
+
+        - title: Array Manipulation(Clever)
+          url: /array_manipulation.html
+          output: web, pdf
+
 #  - title: Overview
 #    output: web, pdf
 #    folderitems:
