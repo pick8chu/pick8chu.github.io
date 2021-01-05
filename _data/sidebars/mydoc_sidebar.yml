@@ -182,11 +182,11 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Array Manipulation(Clever)
+        - title: Array Manipulation (Clever)
           url: /array_manipulation.html
           output: web, pdf
 
-        - title: Array Manipulation(Clever)
+        - title: New Year Chaos (Clever)
           url: /new_year_chaos.html
           output: web, pdf
 
