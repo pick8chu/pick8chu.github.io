@@ -186,6 +186,10 @@ entries:
           url: /array_manipulation.html
           output: web, pdf
 
+        - title: Array Manipulation(Clever)
+          url: /new_year_chaos.html
+          output: web, pdf
+
 #  - title: Overview
 #    output: web, pdf
 #    folderitems:
