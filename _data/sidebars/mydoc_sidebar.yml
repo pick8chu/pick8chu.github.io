@@ -178,6 +178,10 @@ entries:
           url: /boats-to-save-people.html
           output: web, pdf
 
+        - title: Minimum Operations To Reduce x To Zero (DP-Sliding window)
+          url: /minimum-operations-to-reduce-x-to-zero.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
