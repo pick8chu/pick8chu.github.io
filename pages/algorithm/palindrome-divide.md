@@ -55,7 +55,7 @@ int main(){
 	// i 가 안에 있는 이유는, 길이가 3인것들에 대해 한바뀌 돌아야지
 	// 길이가 4인것들에 대해 볼 때, isP[a][b](b-a=3) 이 업데이트되어있기때문
 	for(int j = 2; j < s.size(); j++){
-        for(int i = 1; i < s.size(); i++){
+        	for(int i = 1; i < s.size(); i++){
 			if(s[i] == s[j] && isP[i+1][j-1]) isP[i][j] = true;
 		}
 	}
