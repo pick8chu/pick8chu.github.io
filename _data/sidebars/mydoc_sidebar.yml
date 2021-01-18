@@ -190,6 +190,10 @@ entries:
           url: /MST_planets.html
           output: web, pdf
 
+        - title: 1509 - 팰린드롬분할 (DP)
+          url: /palindrome-divide.html
+          output: web, pdf
+
       - title: HackerRank
         output: web
         subfolderitems:
