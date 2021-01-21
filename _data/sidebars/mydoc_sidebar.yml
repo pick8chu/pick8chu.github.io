@@ -45,6 +45,10 @@ entries:
     output: web,pdf
     folderitems:
 
+    - title: Javascript
+      url: /javascript.html
+      output: web, pdf
+
     - title: RESTful API
       url: /restful_api.html
       output: web, pdf
