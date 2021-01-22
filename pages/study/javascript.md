@@ -145,6 +145,28 @@ function dividedBy(r) { return function(l) { return l / r; }; }
 in Javascript, it declares all the variables to the top of the scope.
 
 
+```javascript
+
+(function main() {
+    
+    
+    var x = 4;
+    
+    function func1(){
+        console.log('func1', x);	//by hoisting, this x is new x only existing in this scope, other than global x
+        var x = 3;	//lexical scope
+    }
+    
+    function func2(){
+        console.log('func2', x);
+    }
+    
+    func1();	// func1 undefined
+    func2();	// func2 4
+}());
+
+```
+
 
 ### example
 
