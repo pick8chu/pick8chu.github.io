@@ -16,6 +16,8 @@ To use variables outside of the functions in inside the functions. It's like wra
 
 Therefore, the variables inside would be private variables, and encapsulated.
 
+However, it may cause memory issues if you didn't clear the memory after using it. You can assign null or something else to refresh the assigned memory. 
+
 ### example 1
 
 ```javascript
