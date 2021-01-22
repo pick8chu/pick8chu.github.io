@@ -216,3 +216,20 @@ event.stopPropagation...
 Number can be -(2^53-1) <= x <= 2^53-1 also including float.
 
 also about type, refer [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+
+
+## #. display: flex;
+
+Putting elements to the center of the div.
+
+```css
+
+div#login_wrapper{
+    display: flex;
+    height: 100vh;
+    justify-content: center; /* horizontally center align */
+    align-items: center; /* vertically center align */
+    border: solid 1px gray;
+}
+
+```
