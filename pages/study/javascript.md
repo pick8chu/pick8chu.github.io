@@ -182,3 +182,11 @@ event.stopPropagation...
 
 
 ## #. Arrow function with This scope
+
+## #. Number type size
+
+> JavaScript uses double-precision (64-bit) floating point numbers. 64 bits are 8 bytes, but each number actually takes up an average of 9.7 bytes. Likewise, Chrome shows the size of each individual empty array as 32 bytes and the size of each empty object as 56 bytes.
+>
+>	- [here](https://www.mattzeunert.com/2016/07/24/javascript-array-object-sizes.html#:~:text=JavaScript%20uses%20double%2Dprecision%20(64,empty%20object%20as%2056%20bytes.)
+
+also about type, refer [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
