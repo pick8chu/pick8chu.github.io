@@ -196,11 +196,16 @@ in Javascript, it declares all the variables to the top of the scope.
 
 
 
+## #. Event Capturing
+
+The opposite concept of event bubbling. When it has 3 hierarchy and click event is in the deepest node, the event will be captured from 1st node and 2nd node before the deepest node. 
+For more informations, click [here](https://javascript.info/bubbling-and-capturing)
+
 
 ## #. Event bubbling
 
 event.stopPropagation...
-
+For more informations, click [here](https://javascript.info/bubbling-and-capturing)
 
 
 
