@@ -37,6 +37,9 @@ However, it may cause memory issues if you didn't clear the memory after using i
         }, 100);
     };
     
+    // explanation is here
+    // https://stackoverflow.com/questions/31285911/why-let-and-var-bindings-behave-differently-using-settimeout-function
+    
 	// 2. function
     for(var i = 0 ; i < 10; i++){
       (function(x){
