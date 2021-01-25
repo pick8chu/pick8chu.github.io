@@ -204,7 +204,8 @@ For more informations, click [here](https://javascript.info/bubbling-and-capturi
 
 ## #. Event bubbling
 
-event.stopPropagation...
+event.stopPropagation : stopping from sending the current event to its parents node
+event.stopImmediatePropagation : stopping from sending *all the existing events* to its parents node
 For more informations, click [here](https://javascript.info/bubbling-and-capturing)
 
 
