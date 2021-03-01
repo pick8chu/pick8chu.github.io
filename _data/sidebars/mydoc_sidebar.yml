@@ -186,6 +186,10 @@ entries:
           url: /minimum-operations-to-reduce-x-to-zero.html
           output: web, pdf
 
+        - title: Maximum Frequency Stack (Two Maps with stack)
+          url: /maximum_frequency_stack.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
