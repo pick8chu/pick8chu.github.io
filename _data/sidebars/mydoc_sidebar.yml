@@ -190,6 +190,10 @@ entries:
           url: /maximum_frequency_stack.html
           output: web, pdf
 
+        - title: Best Time to Buy and Sell Stock with Transaction Fee (DP)
+          url: /best-time-to-buy-and-sell-stock-with-transaction-fee.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
