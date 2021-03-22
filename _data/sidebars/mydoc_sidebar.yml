@@ -194,6 +194,11 @@ entries:
           url: /best-time-to-buy-and-sell-stock-with-transaction-fee.html
           output: web, pdf
 
+        - title: Reordered Power Of 2 (Map)
+          url: /reordered-power-of-2.html
+          output: web, pdf
+
+
       - title: baekjoon
         output: web
         subfolderitems:
