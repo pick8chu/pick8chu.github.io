@@ -198,6 +198,13 @@ entries:
           url: /reordered-power-of-2.html
           output: web, pdf
 
+        - title: Palindrome Linked List (creativity)
+          url: /palindrome-linked-list.html
+          output: web, pdf
+
+        - title: Longest Valid Parentheses (DP or Stack)
+          url: /longest-valid-parentheses.html
+          output: web, pdf
 
       - title: baekjoon
         output: web
