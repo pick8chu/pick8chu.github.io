@@ -21,13 +21,13 @@ I was thinking of using a recursive algorithm. Like, if you find open parenthesi
 
 (    
 
-​	↘
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↘
 
-​			(
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(
 
-​			)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
 
-​	↙
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↙
 
 )
 
