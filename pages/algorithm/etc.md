@@ -120,11 +120,20 @@ int main() {
 }
 ```
 
-### declaraion of functions in parameter
 
+
+
+### Declaration of functions in parameter
+
+```c++
 [](int a, int b){
     content;
 }
+```
+
+
+
+For example:
 
 ```c++
 sort(arr.begin(), arr.end(), [](const int& a, const int& b){
@@ -132,3 +141,25 @@ sort(arr.begin(), arr.end(), [](const int& a, const int& b){
 });
 ```
 
+
+
+### Using outside values in Lambda expression
+
+```c++
+[outside_value_name](int a, int b){
+    content;
+}
+```
+
+
+
+For example:
+
+```c++
+string order = 'qwertyuiopalskdjfhgzmxncbv';
+
+// & to get it by reference
+sort(arr.begin(), arr.end(), [&order](const int& a, const int& b){
+    return order.find(b) < order.find(a);
+});
+```
