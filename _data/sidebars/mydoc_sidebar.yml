@@ -206,6 +206,10 @@ entries:
           url: /longest-valid-parentheses.html
           output: web, pdf
 
+        - title: Number of Submatrices that Sum to Target (DP)
+          url: /number-of-submatrices-that-sum-to-target.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
