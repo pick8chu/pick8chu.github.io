@@ -5,7 +5,7 @@ keywords: algorithm
 sidebar: mydoc_sidebar
 comments: true
 permalink: brutal_tester.html
-summary: 'brutaltester' is a program that will allow you to run codes in your local pc using a refree. 
+summary: brutaltester is a program that will allow you to run codes in your local pc using a refree. 
 
 ---
 
