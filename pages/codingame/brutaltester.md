@@ -4,7 +4,7 @@ last_updated: May 17, 2021
 keywords: algorithm
 sidebar: mydoc_sidebar
 comments: true
-permalink: brutal_tester.html
+permalink: brutaltester.html
 summary: brutaltester is a program that will allow you to run codes in your local pc using a refree. 
 
 ---
