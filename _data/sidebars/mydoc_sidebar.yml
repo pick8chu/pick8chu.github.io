@@ -239,7 +239,7 @@ entries:
         subfolderitems:
 
         - title: brutaltester
-          url: /brutaltester.html
+          url: /brutal_tester.html
           output: web, pdf
 
         - title: 2021_Spring_Challenge
