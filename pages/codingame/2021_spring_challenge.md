@@ -11,3 +11,5 @@ summary:
 ---
 
 ## [2021 Spring Challenge](https://www.codingame.com/contests/spring-challenge-2021)
+
+> All rights reserved Codingame.com 
