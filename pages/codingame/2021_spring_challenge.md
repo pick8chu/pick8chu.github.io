@@ -14,4 +14,4 @@ summary:
 
 > All rights reserved Codingame.com 
 
-![2021 Spring Challenge](/2021_spring_challenge.png)
+![2021 Spring Challenge](/images/2021_spring_challenge.png)
