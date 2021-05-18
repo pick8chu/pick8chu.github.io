@@ -108,7 +108,7 @@ public:
             board.push_back(cell);
         }
 
-        int dir[6][2] = {{1,5},{0,2},{1,3},{2,4},{3,5},{0,4}};
+        int dir[6][2] = { {1,5},{0,2},{1,3},{2,4},{3,5},{0,4} };
         shade_spots = vector<vector<vector<int>>>(37, vector<vector<int>>(4, vector<int>()));
         for(int idx = 0; idx < 37; idx++){
             for(int dir = 0; dir < 6; dir++){
