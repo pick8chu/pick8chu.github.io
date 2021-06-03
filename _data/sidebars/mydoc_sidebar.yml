@@ -242,9 +242,9 @@ entries:
         output: web
         subfolderitems:
 
-        - title: brutaltester
-          url: /brutaltester.html
-          output: web, pdf
+#         - title: brutaltester
+#           url: /brutaltester.html
+#           output: web, pdf
 
         - title: 2021_Spring_Challenge
           url: /2021_Spring_Challenge.html
