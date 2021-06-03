@@ -38,7 +38,7 @@ you can download the program on their [github](https://github.com/dreignier/cg-b
 >   ```
 >
 >by codingame.com
-
+ 
 
 
 ### Problems that I had
