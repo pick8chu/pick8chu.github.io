@@ -214,6 +214,10 @@ entries:
           url: /interleaving_string.html
           output: web, pdf
 
+        - title: Jump Game VI (DP/dequeue(smart!))
+          url: /jump-game-vi.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
