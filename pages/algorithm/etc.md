@@ -163,3 +163,22 @@ sort(arr.begin(), arr.end(), [&order](const int& a, const int& b){
     return order.find(b) < order.find(a);
 });
 ```
+
+
+
+
+
+
+
+### Use custom comparator with lambda expression on Priority Queue
+```c++
+
+//  first, define lambda expression 
+auto comp = [](const pair<int,int> a, const pair<int,int> b){
+    if(a.first != b.first) return (a.first < b.first);
+    else return (a.second < b.second);
+};
+//  use decltype and on constructor you have to put the lambda expression 
+priority_queue< pair<int,int>, vector<pair<int,int>>, decltype(comp)> pq(comp);        
+
+```
