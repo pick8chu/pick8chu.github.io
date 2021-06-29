@@ -218,6 +218,10 @@ entries:
           url: /jump-game-vi.html
           output: web, pdf
 
+        - title: Remove All Adjacent Duplicates In String (dequeue)
+          url: /remove-all-adjacent-duplicates-in-string.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
