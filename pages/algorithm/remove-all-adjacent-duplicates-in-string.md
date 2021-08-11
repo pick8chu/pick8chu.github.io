@@ -5,7 +5,7 @@ keywords: algorithm
 sidebar: mydoc_sidebar
 comments: true
 permalink: remove-all-adjacent-duplicates-in-string.html
-summary: -
+summary: 
 
 ---
 
