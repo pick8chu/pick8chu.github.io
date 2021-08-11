@@ -222,6 +222,10 @@ entries:
           url: /remove-all-adjacent-duplicates-in-string.html
           output: web, pdf
 
+        - title: Flip String to Monotone Increasing (DP)
+          url: /flip-string-to-monotone-increasing.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
