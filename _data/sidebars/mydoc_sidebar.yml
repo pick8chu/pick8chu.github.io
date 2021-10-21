@@ -57,6 +57,10 @@ entries:
       url: /was.html
       output: web, pdf
 
+    - title: Spring
+      url: /spring.html
+      output: web, pdf
+
   - title: Android
     output: web,pdf
     folderitems:
