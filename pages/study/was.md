@@ -23,7 +23,7 @@ Therefore, with WAS, clients can request data and receive them.
 - WAS: Regular website where client requests and receive.
 - WEB: Static website, like this website. none of this is from database, it's just innated in HTML.
 
-### UPDATE :: 12/08
+### UPDATE :: 21-12-08
 
 Every request from clients has to go through WEB server, and from there, 
 if the request only has static things, then return from WEB server. 
