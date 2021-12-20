@@ -230,6 +230,10 @@ entries:
           url: /flip-string-to-monotone-increasing.html
           output: web, pdf
 
+        - title: Maximal Square (DP)
+          url: /maximal-square.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
