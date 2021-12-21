@@ -53,9 +53,9 @@ bool isPowerOfTwo(int n) {
 }
 ```
 
-  0 0 0 1 0 0 0 0 0
-& 0 0 0 0 1 1 1 1 1 
--------------------
-  0 0 0 0 0 0 0 0 0
+0 0 0 1 0 0 0 0 0 <br/>
+0 0 0 0 1 1 1 1 1 <br/>
+& <br/>
+0 0 0 0 0 0 0 0 0
   
 n & (n - 1) cannot be true when n is power of 2.
