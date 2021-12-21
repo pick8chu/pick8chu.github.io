@@ -234,6 +234,10 @@ entries:
           url: /maximal-square.html
           output: web, pdf
 
+        - title: Power of Two (smart)
+          url: /power-of-two.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
