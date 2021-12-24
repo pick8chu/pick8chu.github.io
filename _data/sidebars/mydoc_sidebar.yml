@@ -238,6 +238,10 @@ entries:
           url: /power-of-two.html
           output: web, pdf
 
+        - title: Course Schedule II (Graph - Topological)
+          url: /course-schedule-ii.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
