@@ -242,6 +242,10 @@ entries:
           url: /course-schedule-ii.html
           output: web, pdf
 
+        - title: Complement of Base 10 Integer (bitwase operation)
+          url: /complement-of-base-10-integer.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
