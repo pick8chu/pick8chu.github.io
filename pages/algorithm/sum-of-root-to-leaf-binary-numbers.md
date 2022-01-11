@@ -1,4 +1,3 @@
-
 ---
 title: leetcode- Sum of Root To Leaf Binary Numbers
 last_updated: Jan 11, 2022
@@ -7,8 +6,9 @@ sidebar: mydoc_sidebar
 comments: true
 permalink: sum-of-root-to-leaf-binary-numbers.html
 summary: cleaver way to convert binary number to decimal number 
-
 ---
+
+
 
 ## #. Problem
 
@@ -75,7 +75,7 @@ public:
 
 Although the time complexity and space complexity won't make a huge difference, here are those:
 
-| Time(O(Number of Nodes * depth)) | Space(O(1)) |
+| Time(O(Number of Nodes * depth)) | Space(O(tree height)) |
 | ------------ | ----------- |
 | 4 ms       | 18.5 MB     |
 
@@ -114,7 +114,7 @@ public:
 ```
 
 
-| Time(O(number of nodes)) | Space(O(1)) |
+| Time(O(number of nodes)) | Space(O(tree height)) |
 | ------------ | ------------- |
 | 0 ms         | 16.8 MB          |
 
