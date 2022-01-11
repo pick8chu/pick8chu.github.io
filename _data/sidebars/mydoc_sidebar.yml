@@ -250,6 +250,10 @@ entries:
           url: /sum-of-root-to-leaf-binary-numbers.html
           output: web, pdf
 
+        - title: ★ Cheery Pickup II (Matrix as a storage)
+          url: /cherry-pickup-ii.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
