@@ -7,6 +7,7 @@ sidebar: mydoc_sidebar
 comments: true
 permalink: cherry-pickup-ii.html
 summary: Matrix can be used not spacially but logically.
+
 ---
 
 
