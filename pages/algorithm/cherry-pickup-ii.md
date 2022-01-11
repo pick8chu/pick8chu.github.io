@@ -90,4 +90,4 @@ public:
 What I've learned from this exercise:
 
 - Matrix can be a storage (which it is) to be indicated with indices. 
-  - ex) maxtrix\[1\]\[4\]\[2\]\[6\] : 1st floor's 4th room's 2nd desk's 6th chair's name (or something else).	 
+  - ex) **maxtrix\[1\]\[4\]\[2\]\[6\] : 1st floor's 4th room's 2nd desk's 6th chair's name (or something else).**
