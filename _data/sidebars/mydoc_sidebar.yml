@@ -246,6 +246,10 @@ entries:
           url: /complement-of-base-10-integer.html
           output: web, pdf
 
+        - title: Sum of Root To Leaf Binary Numbers (binary->decimal)
+          url: /sum-of-root-to-leaf-binary-numbers.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
