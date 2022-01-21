@@ -254,6 +254,10 @@ entries:
           url: /cherry-pickup-ii.html
           output: web, pdf
 
+        - title: Koko Eating Bananas (binary search)
+          url: /koko-eating-bananas.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
