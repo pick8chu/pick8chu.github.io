@@ -1,4 +1,3 @@
-
 ---
 
 title: leetcode- Koko Eating Bananas
