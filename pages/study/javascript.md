@@ -58,6 +58,24 @@ However, it may cause memory issues if you didn't clear the memory after using i
             }, 100);
         })(i)
     };
+    
+    // 4. async await (this is the right way)
+    	function resolveAfter2Seconds(x) {
+	  return new Promise(resolve => {
+	    setTimeout(() => {
+	      resolve(x);
+	    }, 500);
+	  });
+	}
+
+	async function f1() {
+	    for(let i = 0; i < 10; i++){
+	      console.log(await resolveAfter2Seconds(i)); // 10
+	    }
+	}
+
+	f1();
+    
 ```
 
 
