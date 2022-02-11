@@ -3,6 +3,8 @@
 topnav:
 - title: Topnav
   items:
+    - title: Resume
+      external_url: https://pick8chu.github.io/online-cv/
     - title: GitHub
       external_url: https://github.com/pick8chu
    #- title: News
