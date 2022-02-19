@@ -12,8 +12,9 @@ permalink: snail.html
 ## #. Problem
 
 [Find the unknown digit](https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1/train/javascript)
-<!-- {% include image.html file="android/google_map_01.png"  %} -->
-![image-20220219124907910](android/google_map_01.png)
+
+{% include image.html file="image-20220219124907910.png"  %}
+<!-- ![](android/google_map_01.png) -->
 
 ## 1. My approach
 
