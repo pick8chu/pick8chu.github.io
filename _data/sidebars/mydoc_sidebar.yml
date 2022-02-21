@@ -258,6 +258,10 @@ entries:
           url: /koko-eating-bananas.html
           output: web, pdf
 
+        - title: Majority Element (Boyer–Moore majority vote algorithm)
+          url: /majority-element.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
