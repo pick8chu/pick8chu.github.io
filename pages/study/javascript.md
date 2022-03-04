@@ -22,6 +22,8 @@ it's tightly connected to ['curring'](https://okky.kr/article/535403).
 
 ### example 1
 
+[check this one too](https://myhappyman.tistory.com/20)
+
 ```javascript
 
     // Q.
