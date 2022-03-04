@@ -18,6 +18,8 @@ Therefore, the variables inside would be private variables, and encapsulated.
 
 However, it may cause memory issues if you didn't clear the memory after using it. You can assign null or something else to refresh the assigned memory. 
 
+it's tightly connected to ['curring'](https://okky.kr/article/535403).
+
 ### example 1
 
 ```javascript
