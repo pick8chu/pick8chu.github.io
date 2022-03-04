@@ -65,6 +65,11 @@ it's tightly connected to ['curring'](https://okky.kr/article/535403).
         })(i)
     };
     
+    // or this 
+    for(var i = 0; i < 10; i++){
+        ((x)=>{setTimeout(()=>{console.log(x)}, 1000*x)})(i);
+    };
+    
     // 4. async await (this is the right way)
     	function resolveAfter2Seconds(x) {
 	  return new Promise(resolve => {
