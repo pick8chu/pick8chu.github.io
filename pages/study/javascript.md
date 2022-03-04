@@ -36,6 +36,8 @@ However, it may cause memory issues if you didn't clear the memory after using i
             console.log(i);
         }, 100);
     };
+    //var은 재정의가 가능하기때문에 1~10까지 가면서 마지막 10으로 재정의가 되는것.
+    //let은 재정의가 불가능하기때문에 처음 값(i=1, 2, 3 ...)으로 가지고있는것.
     
     // explanation is here
     // https://stackoverflow.com/questions/31285911/why-let-and-var-bindings-behave-differently-using-settimeout-function
