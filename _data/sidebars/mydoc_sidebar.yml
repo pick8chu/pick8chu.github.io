@@ -262,6 +262,10 @@ entries:
           url: /majority-element.html
           output: web, pdf
 
+        - title: Delete and Earn (DP)
+          url: /delete-and-earn.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
