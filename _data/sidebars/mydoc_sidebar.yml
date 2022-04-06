@@ -266,6 +266,10 @@ entries:
           url: /delete-and-earn.html
           output: web, pdf
 
+        - title: 3Sum With Multiplicity (map+math)
+          url: /3sum-with-multiplicity.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
