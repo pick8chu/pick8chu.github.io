@@ -182,3 +182,7 @@ auto comp = [](const pair<int,int> a, const pair<int,int> b){
 priority_queue< pair<int,int>, vector<pair<int,int>>, decltype(comp)> pq(comp);        
 
 ```
+
+
+# Recursion vs Tail recursion
+- Tail Recursion is to prevent SOF(stack overflow), it uses the same stack memory by not having calculations in the function.
