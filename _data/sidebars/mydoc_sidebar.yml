@@ -61,6 +61,10 @@ entries:
       url: /spring.html
       output: web, pdf
 
+    - title: python
+      url: /python.html
+      output: web, pdf
+
   - title: Android
     output: web,pdf
     folderitems:
