@@ -17,7 +17,7 @@ summary: Greedy algorithm/DP
 
 ## 1. My approach 
 
-This is actually a problem that I was asked on an interview, and I honestly had no idea how to solve it. And Thankfully I had a change to look at it once more on Leetcode, but I still couldn't even guess how to.
+This is actually a problem that I was asked on an interview, and I honestly had no idea how to solve it. And Thankfully I had a chance to look at it once more on Leetcode, but I still couldn't even guess how to.
 
 
 
