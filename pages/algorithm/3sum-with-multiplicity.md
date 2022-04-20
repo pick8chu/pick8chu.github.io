@@ -1,11 +1,11 @@
 ---
 
-title: 3Sum With Multiplicity
-last_updated: Apr 06, 2022
+title: Binary Search Tree Iterator
+last_updated: Apr 20, 2022
 keywords: algorithm
 sidebar: mydoc_sidebar
 comments: true
-permalink: 3sum-with-multiplicity.html
+permalink: binary-search-tree-iterator.html
 
 
 ---
@@ -13,108 +13,90 @@ permalink: 3sum-with-multiplicity.html
 
 ## #. Problem
 
-[Link](https://leetcode.com/problems/3sum-with-multiplicity/)
+[Link](https://leetcode.com/problems/binary-search-tree-iterator/)
 
 
 
 ## 2. My approach
 
-3 for loops for starter, and it shows TLE(Time Limit Error).
-O(N^3) is 3000 * 3000 * 3000 so makes sense.
+Keep all the nodes in a list.
 
-Tried with DP, dp\[i\]\[j\] as counting numbers of *i* from *j* to *N (3000)*.
-Worked, but quite slow. 
+```python
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class BSTIterator:
+    lst = []
 
-```cpp
-class Solution {
-public:
-    int threeSumMulti(vector<int>& arr, int target) {
-        int n = arr.size();
-        long long ans = 0;
+    def __init__(self, root: Optional[TreeNode]):
+        self.inOrder(root)
         
-        int dp[101][3001];
-        memset(dp, 0, 101*3001* sizeof(int));
+    def inOrder(self, root):
+        if not root: return
         
-        for(int i = arr.size()-1; i >= 0; i--){
-            for(int idx = 0; idx < 101; idx++){
-                dp[idx][i] = dp[idx][i+1];
-                if(idx == arr[i]) dp[idx][i] += 1;
-            }
-        }
+        self.inOrder(root.left)
+        self.lst.append(root)
+        self.inOrder(root.right)
         
-        
-        for(int i = 0; i < n-2; i++){
-            for(int j = i+1; j < n-1; j++){
-                int curTarget = target - (arr[i] + arr[j]);
-                if(curTarget < 0 || curTarget > 100) continue;
-                ans += dp[curTarget][j+1];
-                ans %= (long long)1e9+7;
-            }
-        }
-        
-        return ans;
-    }
-};
+    def next(self) -> int:
+        return self.lst.pop(0).val
+
+    def hasNext(self) -> bool:
+        return self.lst
+
+
+# Your BSTIterator object will be instantiated and called as such:
+# obj = BSTIterator(root)
+# param_1 = obj.next()
+# param_2 = obj.hasNext()
 ```
 
-| Time(O(?)) | Space(O(?)) |
+| Time(O(N)) | Space(O(N)) |
 | ---------- | ----------- |
-| 441 ms     | 11.8 MB     |
+| 195 ms     | 20.3 MB     |
 
-## 2. Second approach - Map
+## 2. Solution - Stack
 
-On the description, it says:
-> i, j, k such that i < j < k and arr[i] + arr[j] + arr[k] == target.
+It also uses O(N) of space, however, except the worst case, it won't have O(N) space. 
+Bast case, it would have O(1) of space.
 
-and this is literally the whole reason of struggles. 
+If the iteration goes from *0* to *N*, time complexity shouldn't be very different from the first approach. That's because both approaches travel N times. However, if one only iterate till N/2, 2nd approach would be faster than the 1st, because 2nd approach has more calculations than just pop.  
 
-It basically means, i != j != k. doesn't mean that you need to care about index order.
-Thereby, \[1,2,3\] and \[3,2,1\] will show the same result through this algorithm.
+```python
+class BSTIterator:
+    stack = []
 
-With this idea, using unordered map with combination would solve the problem faster.
-
-```c++
-class Solution {
-public:
-    int threeSumMulti(vector<int>& arr, int target) {
-        long long ans = 0;
-        unordered_map<int, int> um;
+    def __init__(self, root: Optional[TreeNode]):
+        self.stack = []
+        self.appendStack(root)
         
-        for(int el : arr){
-            um[el]++;
-        }
+    def next(self) -> int:
+        node = self.stack.pop()
+        root = node.right
+        self.appendStack(root)
+        return node.val
         
-        for(auto el1 : um){
-            for(auto el2 : um){
-                int i = el1.first, j = el2.first, k = target-(i+j);
-                
-                if(!um.count(k)) continue;
-                
-                long long prevAns = ans;
-                if(i < j && j < k) ans += (el1.second * el2.second * um[k]);
-                // nCr = n!/(n-r)!r!
-                
-                // nC3 = (n * n-1 * n-2) / 3 * 2 
-                if(i == j && j == k) ans += ((long long)el1.second * (el1.second-1) * (el1.second-2))/6;
-                
-                // nC2 * um[k] = (n * n-1) / 2 * um[k]
-                if(i == j && j != k) ans += (el1.second * (el1.second - 1)) / 2 * um[k];
-                if(!(ans - prevAns)) continue;
-                // cout << i << '+' << j << '+' << k << " = " << ans - prevAns << endl; 
-                ans %= (long long)1e9+7;
-            }
-        }
-        
-        
-        return ans;
-    }
-};
+    def hasNext(self) -> bool:
+        return self.stack
+
+    def appendStack(self, root):
+        while root:
+            self.stack.append(root)
+            root = root.left
+
+# Your BSTIterator object will be instantiated and called as such:
+# obj = BSTIterator(root)
+# param_1 = obj.next()
+# param_2 = obj.hasNext()
 ```
 
 
-| Time(O(N^2)) | Space(O(N)) |
+| Time(O(N)) | Space(O(N)) |
 | ---------- | ----------- |
-| 12 ms      | 10.7 MB     |
+| 100 ms      | 20.3 MB     |
 
 
 
@@ -122,4 +104,4 @@ public:
 
 What I've learned from this exercise:
 
-- wording is so important sometimes.
+- quite cleaver way of using Binary Search Tree
