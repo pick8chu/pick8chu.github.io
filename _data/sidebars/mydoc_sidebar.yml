@@ -274,6 +274,10 @@ entries:
           url: /3sum-with-multiplicity.html
           output: web, pdf
 
+        - title: Binary Search Tree Iterator (stack)
+          url: /binary-search-tree-iterator.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
