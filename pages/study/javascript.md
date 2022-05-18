@@ -178,6 +178,11 @@ function dividedBy(r) { return function(l) { return l / r; }; }
 ## #. [Hoisting](https://www.w3schools.com/js/js_hoisting.asp)
 
 in Javascript, it declares all the variables to the top of the scope.
+However, using this feature is not recommended, due to these reasons;
+1. poor readability
+2. poor dubugging
+
+Therefore, it is recommended to use let, const, other than var to prevent from hoisting.
 
 
 ```javascript
