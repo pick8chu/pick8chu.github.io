@@ -45,6 +45,10 @@ entries:
     output: web,pdf
     folderitems:
 
+    - title: Web
+      url: /web.html
+      output: web, pdf
+
     - title: Spring Boot
       url: /springboot.html
       output: web, pdf
