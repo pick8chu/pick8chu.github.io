@@ -1,11 +1,11 @@
 ---
 
 title: Web
-last_updated: May 20, 2022
+last_updated: May 23, 2022
 keywords: study
 sidebar: mydoc_sidebar
 comments: true
-permalink: springboot.html
+permalink: web.html
 
 ---
 
