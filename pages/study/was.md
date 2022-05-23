@@ -33,3 +33,5 @@ However, if the request has dynamic things, then it would reach to the WAS serve
 going through WEB server. 
 
 Firewalls are often covering WEB server, which means oftentimes WEB server and WAS server doesn't have one in between.
+
+{% include image.html file="web.png" %}
