@@ -53,6 +53,10 @@ entries:
       url: /springboot.html
       output: web, pdf
 
+    - title: Kakaopay 연계
+      url: /kakaopay.html
+      output: web, pdf
+
     - title: Javascript
       url: /javascript.html
       output: web, pdf
