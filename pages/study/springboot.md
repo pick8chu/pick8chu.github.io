@@ -38,6 +38,10 @@ permalink: springboot.html
  
 ### Assert on Service
 - to validate variables.
+- Assert(violate) "notNull" param1
+```java
+  Assert.notNull(response.data.getTid(), "Transaction ID is null");
+```
 
 ### StringBuilder is recommended than StringBuffer
 - StringBuffer is thread-safe, but StringBuilder is not. However, Spring framework guranteed thread safety, so it's more efficient on purformance to use StringBuilder.
