@@ -15,3 +15,6 @@ permalink: web.html
 - Coming from not having the same origin.
 - Normally solved by setting "Access-Control-Allow-Origin".
 - **Access-Control-Allow-Origin has to be in the response, not the request(request doesn't matter)**.
+
+### child popup \<-\> parent
+- postMessage : when cross origin happened, it is not possible to refer eachother. 
