@@ -32,74 +32,6 @@ entries:
       url: /about_contact_me.html
       output: web, pdf
 
-      subfolders:
-      - title: Thoughts
-        output: web
-        subfolderitems:
-
-        - title: Boredom
-          url: /about_thoughts_2020-04-01.html
-          output: web
-
-  - title: Study
-    output: web,pdf
-    folderitems:
-
-    - title: Web
-      url: /web.html
-      output: web, pdf
-
-    - title: Spring Boot
-      url: /springboot.html
-      output: web, pdf
-
-    - title: Kakaopay 연계
-      url: /kakaopay.html
-      output: web, pdf
-
-    - title: Javascript
-      url: /javascript.html
-      output: web, pdf
-
-    - title: RESTful API
-      url: /restful_api.html
-      output: web, pdf
-
-    - title: WAS
-      url: /was.html
-      output: web, pdf
-
-    - title: Spring
-      url: /spring.html
-      output: web, pdf
-
-    - title: python
-      url: /python.html
-      output: web, pdf
-
-  - title: Android
-    output: web,pdf
-    folderitems:
-
-    - title: Start with Google Map API
-      url: /android_google_map.html
-      output: web, pdf
-
-    - title: Custom Infowindow on google map
-      url: /android_custom_infowindow_for_google_map.html
-      output: web, pdf
-
-    - title: Find current location on google map
-      url: /android_current_location_for_google_map.html
-      output: web, pdf
-
-    - title: Add Navigation drawer and add/remove menu items dynamically
-      url: /android_navigation_drawer.html
-      output: web, pdf
-
-    - title: Android App Database - SQLite
-      url: /android_sqlite_db.html
-      output: web, pdf
 
   - title: Algorithm
     output: web,pdf
@@ -337,6 +269,76 @@ entries:
         - title: 2021_Spring_Challenge
           url: /2021_Spring_Challenge.html
           output: web, pdf
+
+#       subfolders:
+#       - title: Thoughts
+#         output: web
+#         subfolderitems:
+
+#         - title: Boredom
+#           url: /about_thoughts_2020-04-01.html
+#           output: web
+
+  - title: Study
+    output: web,pdf
+    folderitems:
+
+    - title: Web
+      url: /web.html
+      output: web, pdf
+
+    - title: Spring Boot
+      url: /springboot.html
+      output: web, pdf
+
+    - title: Kakaopay 연계
+      url: /kakaopay.html
+      output: web, pdf
+
+    - title: Javascript
+      url: /javascript.html
+      output: web, pdf
+
+    - title: RESTful API
+      url: /restful_api.html
+      output: web, pdf
+
+    - title: WAS
+      url: /was.html
+      output: web, pdf
+
+    - title: Spring
+      url: /spring.html
+      output: web, pdf
+
+    - title: python
+      url: /python.html
+      output: web, pdf
+
+  - title: Android
+    output: web,pdf
+    folderitems:
+
+    - title: Start with Google Map API
+      url: /android_google_map.html
+      output: web, pdf
+
+    - title: Custom Infowindow on google map
+      url: /android_custom_infowindow_for_google_map.html
+      output: web, pdf
+
+    - title: Find current location on google map
+      url: /android_current_location_for_google_map.html
+      output: web, pdf
+
+    - title: Add Navigation drawer and add/remove menu items dynamically
+      url: /android_navigation_drawer.html
+      output: web, pdf
+
+    - title: Android App Database - SQLite
+      url: /android_sqlite_db.html
+      output: web, pdf
+
 
 #  - title: Overview
 #    output: web, pdf
