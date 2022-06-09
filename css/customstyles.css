@@ -2,6 +2,12 @@ body {
     font-size: 15px;
 }
 
+#Resume {
+    background-color: black;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
 .bs-callout {
     padding: 20px;
     margin: 20px 0;
