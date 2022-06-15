@@ -99,6 +99,7 @@ assertThat(vo).isEquals(resertVo)
 ### spring batch
 - spring batch with chunk.
   - [chunk is different from paging.](https://jojoldu.tistory.com/331)
+
 ```java
 
     @Value("${base.batch.chunkSize:1000}")
