@@ -83,6 +83,7 @@ permalink: springboot.html
 
 ### junit test
 - given -> when -> then
+
 ```java
 // given
 vo setting
