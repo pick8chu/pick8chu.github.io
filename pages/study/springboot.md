@@ -9,7 +9,7 @@ permalink: springboot.html
 
 ---
 
-# Spring Boot feedbacks
+# Spring Boot
 
 ### PostMapping
 - RequestMapping X -> GetMapping/PostMapping etc.
