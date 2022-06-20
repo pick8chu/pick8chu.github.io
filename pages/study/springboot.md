@@ -150,3 +150,12 @@ assertThat(vo).isEquals(resertVo)
                 .build();
     }
 ```
+
+
+
+### HA, high availability
+- To increse the robustness, making multiple servers incase of server fails.
+- [There are three principles of systems design in reliability engineering which can help achieve high availability.](https://en.wikipedia.org/wiki/High_availability)
+  1. Elimination of single points of failure. This means adding or building redundancy into the system so that failure of a component does not mean failure of the entire system.
+  2. Reliable crossover. In redundant systems, the crossover point itself tends to become a single point of failure. Reliable systems must provide for reliable crossover.
+  3. Detection of failures as they occur. If the two principles above are observed, then a user may never see a failure – but the maintenance activity must.
