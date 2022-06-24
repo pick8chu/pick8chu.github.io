@@ -222,6 +222,10 @@ entries:
           url: /binary-search-tree-iterator.html
           output: web, pdf
 
+        - title: Course schedule III
+          url: /course-schedule-iii.html
+          output: web, pdf
+
       - title: baekjoon
         output: web
         subfolderitems:
