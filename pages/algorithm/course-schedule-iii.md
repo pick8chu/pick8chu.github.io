@@ -80,6 +80,41 @@ public:
 ```
 Time Complexity: O(N * log N)
 
+However, the last if condition *pq.top() > dur* might be hard to understand, so i changed it as below.
+<br/><br/>
+> *total - pq.top() + dur <= end* <- this part is not necessary because if *dur < pq.top()* is true,<br/>
+> *dur - pq.top() < 0* which makes the first equation to *total + (-X) <= end*. <br/>
+> At any situation, *total <= end* is true, because *total = total + dur* when *dur + total <= end*.<br/>
+
+```cpp
+class Solution {
+public:
+    int scheduleCourse(vector<vector<int>>& C) {
+        priority_queue<int> pq;
+        int total = 0;
+        
+        sort(C.begin(), C.end(), [](auto &a, auto &b) { 
+            return a[1] < b[1];
+        });
+        
+        for (auto &course : C) {
+            int dur = course[0], end = course[1];
+            if (dur + total <= end) {
+                total += dur;
+                pq.push(dur);
+            }
+            else if (pq.size() && pq.top() > dur && (total - pq.top() + dur <= end)){
+                total += dur - pq.top();
+                pq.pop();
+                pq.push(dur);
+            }
+        }
+        return pq.size();
+    }
+};
+```
+
+
 ## 3. Epilogue 
 
 What I've learned from this exercise:
