@@ -8,6 +8,8 @@ permalink: test.html
 
 ---
 
+# Detailed explanation will be posted soon...
+
 ## #. [The different types of software testing](https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing)
 
 ## #. [More](https://parksh86.tistory.com/166);
