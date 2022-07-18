@@ -319,6 +319,10 @@ entries:
       url: /python.html
       output: web, pdf
 
+    - title: Test
+      url: /test.html
+      output: web, pdf
+
   - title: Android
     output: web,pdf
     folderitems:
