@@ -1,353 +1,346 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
-- title: sidebar
-  #product: pick8chu
-  #version: 0.0.1
-  folders:
-
-  - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage.html
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage.html
-      output: pdf
-      type: frontmatter
-
-  - title: About
-    output: web, pdf
-    folderitems:
-
-    - title: Home
-      url: /index.html
-      output: web, pdf
-      type: homepage
-
-    - title: Contact Me
-      url: /about_contact_me.html
-      output: web, pdf
-
-
-  - title: Algorithm
-    output: web,pdf
-    folderitems:
-    
-    - title: Algorithm Overview
-      url: /algorithm-overview.html
-      output: web, pdf
-    
-    - title: Priority Queue vs Vector
-      url: /priority_queue_vs_vector.html
-      output: web, pdf
-    
-    - title: Prime Number
-      url: /prime_number.html
-      output: web, pdf
-    
-    - title: Fenwick Tree
-      url: /fenwick.html
-      output: web, pdf
-    
-    - title: Permutation
-      url: /permutation.html
-      output: web, pdf
-    
-    - title: Trie Algorithm
-      url: /trie_algorithm.html
-      output: web, pdf
-    
-    - title: Algorithm Course
-      url: /algorithm-course.html
-      output: web, pdf
-    
-    - title: Etc
-      url: /algorithm-etc.html
-      output: web, pdf
-    
-      subfolders:
-      - title: Greedy Algorithm
-        output: web
-        subfolderitems:
-
-        - title: Greedy Algorithm Overview
-          url: /algorithm-greedy-overview.html
-          output: web
-
-        - title: Assigning Meeting Room
-          url: /algorithm-greedy-baekjoon_1931.html
-          output: web
-
-      - title: leetcode
-        output: web
-        subfolderitems:
-
-        - title: 3 sum
-          url: /3_sum.html
-          output: web, pdf
-
-        - title: single number
-          url: /single_number.html
-          output: web, pdf
-
-        - title: buy and sell stock 2
-          url: /buy_and_sell_stock_2.html
-          output: web, pdf
-
-        - title: rotate array
-          url: /rotate_array.html
-          output: web, pdf
-
-        - title: Kth Smallest Element in a BST (inorder)
-          url: /Kth_Smallest_Element_in_a_BST.html
-          output: web, pdf
-
-        - title: Coin Change (DP)
-          url: /coin_change.html
-          output: web, pdf
-
-        - title: Palindrome Partitioning (DFS)
-          url: /palindrome_partitioning.html
-          output: web, pdf
-
-        - title: Cherry Pickup II (DP w/ 3D matrix)
-          url: /cherry_pickup_ii.html
-          output: web, pdf
-
-        - title: Largest Rectangle In Histogram (mono-Stack)
-          url: /largest-rectangle-in-histogram.html
-          output: web, pdf
-
-        - title: Pseudo-palindromic Paths In a Binary Tree (Tree DFS + Bit Masking)
-          url: /pseudo-palindromic-paths-in-a-binary-tree.html
-          output: web, pdf
-
-        - title: Create Sorted Array Through Instructions (Fenwick Tree)
-          url: /create-sorted-array-through-instructions.html
-          output: web, pdf
-
-        - title: Boats To Save People (Two pointers)
-          url: /boats-to-save-people.html
-          output: web, pdf
-
-        - title: Minimum Operations To Reduce x To Zero (DP-Sliding window)
-          url: /minimum-operations-to-reduce-x-to-zero.html
-          output: web, pdf
-
-        - title: Maximum Frequency Stack (Two Maps with stack)
-          url: /maximum_frequency_stack.html
-          output: web, pdf
-
-        - title: Best Time to Buy and Sell Stock with Transaction Fee (DP)
-          url: /best-time-to-buy-and-sell-stock-with-transaction-fee.html
-          output: web, pdf
-
-        - title: Reordered Power Of 2 (Map)
-          url: /reordered-power-of-2.html
-          output: web, pdf
-
-        - title: Palindrome Linked List (creativity)
-          url: /palindrome-linked-list.html
-          output: web, pdf
-
-        - title: Longest Valid Parentheses (DP or Stack)
-          url: /longest-valid-parentheses.html
-          output: web, pdf
-
-        - title: Number of Submatrices that Sum to Target (DP)
-          url: /number-of-submatrices-that-sum-to-target.html
-          output: web, pdf
-
-        - title: Interleaving String (DP/memoization)
-          url: /interleaving_string.html
-          output: web, pdf
-
-        - title: Jump Game VI (DP/dequeue(smart!))
-          url: /jump-game-vi.html
-          output: web, pdf
-
-        - title: Remove All Adjacent Duplicates In String (dequeue)
-          url: /remove-all-adjacent-duplicates-in-string.html
-          output: web, pdf
-
-        - title: Flip String to Monotone Increasing (DP)
-          url: /flip-string-to-monotone-increasing.html
-          output: web, pdf
-
-        - title: Maximal Square (DP)
-          url: /maximal-square.html
-          output: web, pdf
-
-        - title: Power of Two (smart)
-          url: /power-of-two.html
-          output: web, pdf
-
-        - title: Course Schedule II (Graph - Topological)
-          url: /course-schedule-ii.html
-          output: web, pdf
-
-        - title: Complement of Base 10 Integer (bitwase operation)
-          url: /complement-of-base-10-integer.html
-          output: web, pdf
-
-        - title: Sum of Root To Leaf Binary Numbers (binary->decimal)
-          url: /sum-of-root-to-leaf-binary-numbers.html
-          output: web, pdf
-
-        - title: ★ Cheery Pickup II (Matrix as a storage)
-          url: /cherry-pickup-ii.html
-          output: web, pdf
-
-        - title: Koko Eating Bananas (binary search)
-          url: /koko-eating-bananas.html
-          output: web, pdf
-
-        - title: Majority Element (Boyer–Moore majority vote algorithm)
-          url: /majority-element.html
-          output: web, pdf
-
-        - title: Delete and Earn (DP)
-          url: /delete-and-earn.html
-          output: web, pdf
-
-        - title: 3Sum With Multiplicity (map+math)
-          url: /3sum-with-multiplicity.html
-          output: web, pdf
-
-        - title: Binary Search Tree Iterator (stack)
-          url: /binary-search-tree-iterator.html
-          output: web, pdf
-
-        - title: Course schedule III
-          url: /course-schedule-iii.html
-          output: web, pdf
-
-      - title: baekjoon
-        output: web
-        subfolderitems:
-
-        - title: 2887 - 행성터널 (krusical)
-          url: /MST_planets.html
-          output: web, pdf
-
-        - title: 1509 - 팰린드롬분할 (DP)
-          url: /palindrome-divide.html
-          output: web, pdf
-
-      - title: HackerRank
-        output: web
-        subfolderitems:
-
-        - title: Array Manipulation (Clever)
-          url: /array_manipulation.html
-          output: web, pdf
-
-        - title: New Year Chaos (Clever)
-          url: /new_year_chaos.html
-          output: web, pdf
-
-      - title: CodeWar
-        output: web
-        subfolderitems:
-
-        - title: Find the unknown digit
-          url: /find_the_unknown_digit.html
-          output: web, pdf
-
-        - title: Snail
-          url: /snail.html
-          output: web, pdf
-
-      - title: codingame
-        output: web
-        subfolderitems:
-
-#         - title: brutaltester
-#           url: /brutaltester.html
-#           output: web, pdf
-
-        - title: 2021_Spring_Challenge
-          url: /2021_Spring_Challenge.html
-          output: web, pdf
-
-#       subfolders:
-#       - title: Thoughts
-#         output: web
-#         subfolderitems:
-
-#         - title: Boredom
-#           url: /about_thoughts_2020-04-01.html
-#           output: web
-
-  - title: Study
-    output: web,pdf
-    folderitems:
-
-    - title: Web
-      url: /web.html
-      output: web, pdf
-
-    - title: Spring Boot
-      url: /springboot.html
-      output: web, pdf
-
-    - title: Kakaopay 연계
-      url: /kakaopay.html
-      output: web, pdf
-
-    - title: Javascript
-      url: /javascript.html
-      output: web, pdf
-
-    - title: RESTful API
-      url: /restful_api.html
-      output: web, pdf
-
-    - title: WAS
-      url: /was.html
-      output: web, pdf
-
-    - title: Spring
-      url: /spring.html
-      output: web, pdf
-
-    - title: python
-      url: /python.html
-      output: web, pdf
-
-    - title: Test
-      url: /test.html
-      output: web, pdf
-
-  - title: Android
-    output: web,pdf
-    folderitems:
-
-    - title: Start with Google Map API
-      url: /android_google_map.html
-      output: web, pdf
-
-    - title: Custom Infowindow on google map
-      url: /android_custom_infowindow_for_google_map.html
-      output: web, pdf
-
-    - title: Find current location on google map
-      url: /android_current_location_for_google_map.html
-      output: web, pdf
-
-    - title: Add Navigation drawer and add/remove menu items dynamically
-      url: /android_navigation_drawer.html
-      output: web, pdf
-
-    - title: Android App Database - SQLite
-      url: /android_sqlite_db.html
-      output: web, pdf
-
-
+  - title: sidebar
+    #product: pick8chu
+    #version: 0.0.1
+    folders:
+      - title:
+        output: pdf
+        type: frontmatter
+        folderitems:
+          - title:
+            url: /titlepage.html
+            output: pdf
+            type: frontmatter
+          - title:
+            url: /tocpage.html
+            output: pdf
+            type: frontmatter
+
+      - title: About
+        output: web, pdf
+        folderitems:
+          - title: Home
+            url: /index.html
+            output: web, pdf
+            type: homepage
+
+          - title: Contact Me
+            url: /about_contact_me.html
+            output: web, pdf
+
+      - title: Algorithm
+        output: web,pdf
+        folderitems:
+          - title: Algorithm Overview
+            url: /algorithm-overview.html
+            output: web, pdf
+
+          - title: Priority Queue vs Vector
+            url: /priority_queue_vs_vector.html
+            output: web, pdf
+
+          - title: Prime Number
+            url: /prime_number.html
+            output: web, pdf
+
+          - title: Fenwick Tree
+            url: /fenwick.html
+            output: web, pdf
+
+          - title: Permutation
+            url: /permutation.html
+            output: web, pdf
+
+          - title: Trie Algorithm
+            url: /trie_algorithm.html
+            output: web, pdf
+
+          - title: Algorithm Course
+            url: /algorithm-course.html
+            output: web, pdf
+
+          - title: Etc
+            url: /algorithm-etc.html
+            output: web, pdf
+
+            subfolders:
+              - title: Greedy Algorithm
+                output: web
+                subfolderitems:
+                  - title: Greedy Algorithm Overview
+                    url: /algorithm-greedy-overview.html
+                    output: web
+
+                  - title: Assigning Meeting Room
+                    url: /algorithm-greedy-baekjoon_1931.html
+                    output: web
+
+              - title: leetcode
+                output: web
+                subfolderitems:
+                  - title: 3 sum
+                    url: /3_sum.html
+                    output: web, pdf
+
+                  - title: single number
+                    url: /single_number.html
+                    output: web, pdf
+
+                  - title: buy and sell stock 2
+                    url: /buy_and_sell_stock_2.html
+                    output: web, pdf
+
+                  - title: rotate array
+                    url: /rotate_array.html
+                    output: web, pdf
+
+                  - title: Kth Smallest Element in a BST (inorder)
+                    url: /Kth_Smallest_Element_in_a_BST.html
+                    output: web, pdf
+
+                  - title: Coin Change (DP)
+                    url: /coin_change.html
+                    output: web, pdf
+
+                  - title: Palindrome Partitioning (DFS)
+                    url: /palindrome_partitioning.html
+                    output: web, pdf
+
+                  - title: Cherry Pickup II (DP w/ 3D matrix)
+                    url: /cherry_pickup_ii.html
+                    output: web, pdf
+
+                  - title: Largest Rectangle In Histogram (mono-Stack)
+                    url: /largest-rectangle-in-histogram.html
+                    output: web, pdf
+
+                  - title: Pseudo-palindromic Paths In a Binary Tree (Tree DFS + Bit Masking)
+                    url: /pseudo-palindromic-paths-in-a-binary-tree.html
+                    output: web, pdf
+
+                  - title: Create Sorted Array Through Instructions (Fenwick Tree)
+                    url: /create-sorted-array-through-instructions.html
+                    output: web, pdf
+
+                  - title: Boats To Save People (Two pointers)
+                    url: /boats-to-save-people.html
+                    output: web, pdf
+
+                  - title: Minimum Operations To Reduce x To Zero (DP-Sliding window)
+                    url: /minimum-operations-to-reduce-x-to-zero.html
+                    output: web, pdf
+
+                  - title: Maximum Frequency Stack (Two Maps with stack)
+                    url: /maximum_frequency_stack.html
+                    output: web, pdf
+
+                  - title: Best Time to Buy and Sell Stock with Transaction Fee (DP)
+                    url: /best-time-to-buy-and-sell-stock-with-transaction-fee.html
+                    output: web, pdf
+
+                  - title: Reordered Power Of 2 (Map)
+                    url: /reordered-power-of-2.html
+                    output: web, pdf
+
+                  - title: Palindrome Linked List (creativity)
+                    url: /palindrome-linked-list.html
+                    output: web, pdf
+
+                  - title: Longest Valid Parentheses (DP or Stack)
+                    url: /longest-valid-parentheses.html
+                    output: web, pdf
+
+                  - title: Number of Submatrices that Sum to Target (DP)
+                    url: /number-of-submatrices-that-sum-to-target.html
+                    output: web, pdf
+
+                  - title: Interleaving String (DP/memoization)
+                    url: /interleaving_string.html
+                    output: web, pdf
+
+                  - title: Jump Game VI (DP/dequeue(smart!))
+                    url: /jump-game-vi.html
+                    output: web, pdf
+
+                  - title: Remove All Adjacent Duplicates In String (dequeue)
+                    url: /remove-all-adjacent-duplicates-in-string.html
+                    output: web, pdf
+
+                  - title: Flip String to Monotone Increasing (DP)
+                    url: /flip-string-to-monotone-increasing.html
+                    output: web, pdf
+
+                  - title: Maximal Square (DP)
+                    url: /maximal-square.html
+                    output: web, pdf
+
+                  - title: Power of Two (smart)
+                    url: /power-of-two.html
+                    output: web, pdf
+
+                  - title: Course Schedule II (Graph - Topological)
+                    url: /course-schedule-ii.html
+                    output: web, pdf
+
+                  - title: Complement of Base 10 Integer (bitwase operation)
+                    url: /complement-of-base-10-integer.html
+                    output: web, pdf
+
+                  - title: Sum of Root To Leaf Binary Numbers (binary->decimal)
+                    url: /sum-of-root-to-leaf-binary-numbers.html
+                    output: web, pdf
+
+                  - title: ★ Cheery Pickup II (Matrix as a storage)
+                    url: /cherry-pickup-ii.html
+                    output: web, pdf
+
+                  - title: Koko Eating Bananas (binary search)
+                    url: /koko-eating-bananas.html
+                    output: web, pdf
+
+                  - title: Majority Element (Boyer–Moore majority vote algorithm)
+                    url: /majority-element.html
+                    output: web, pdf
+
+                  - title: Delete and Earn (DP)
+                    url: /delete-and-earn.html
+                    output: web, pdf
+
+                  - title: 3Sum With Multiplicity (map+math)
+                    url: /3sum-with-multiplicity.html
+                    output: web, pdf
+
+                  - title: Binary Search Tree Iterator (stack)
+                    url: /binary-search-tree-iterator.html
+                    output: web, pdf
+
+                  - title: Course schedule III
+                    url: /course-schedule-iii.html
+                    output: web, pdf
+
+              - title: baekjoon
+                output: web
+                subfolderitems:
+                  - title: 2887 - 행성터널 (krusical)
+                    url: /MST_planets.html
+                    output: web, pdf
+
+                  - title: 1509 - 팰린드롬분할 (DP)
+                    url: /palindrome-divide.html
+                    output: web, pdf
+
+              - title: HackerRank
+                output: web
+                subfolderitems:
+                  - title: Array Manipulation (Clever)
+                    url: /array_manipulation.html
+                    output: web, pdf
+
+                  - title: New Year Chaos (Clever)
+                    url: /new_year_chaos.html
+                    output: web, pdf
+
+              - title: CodeWar
+                output: web
+                subfolderitems:
+                  - title: Find the unknown digit
+                    url: /find_the_unknown_digit.html
+                    output: web, pdf
+
+                  - title: Snail
+                    url: /snail.html
+                    output: web, pdf
+
+              - title: codingame
+                output: web
+                subfolderitems:
+                  #         - title: brutaltester
+                  #           url: /brutaltester.html
+                  #           output: web, pdf
+
+                  - title: 2021_Spring_Challenge
+                    url: /2021_Spring_Challenge.html
+                    output: web, pdf
+
+              #       subfolders:
+              #       - title: Thoughts
+              #         output: web
+              #         subfolderitems:
+
+              #         - title: Boredom
+              #           url: /about_thoughts_2020-04-01.html
+              #           output: web
+
+              - title: Advent Of Code 22'
+                output: web
+                subfolderitems:
+                  - title: Day 7
+                    url: /day7.html
+                    output: web, pdf
+
+      - title: Study
+        output: web,pdf
+        folderitems:
+          - title: Web
+            url: /web.html
+            output: web, pdf
+
+          - title: Spring Boot
+            url: /springboot.html
+            output: web, pdf
+
+          - title: Kakaopay 연계
+            url: /kakaopay.html
+            output: web, pdf
+
+          - title: Javascript
+            url: /javascript.html
+            output: web, pdf
+
+          - title: RESTful API
+            url: /restful_api.html
+            output: web, pdf
+
+          - title: WAS
+            url: /was.html
+            output: web, pdf
+
+          - title: Spring
+            url: /spring.html
+            output: web, pdf
+
+          - title: python
+            url: /python.html
+            output: web, pdf
+
+          - title: Test
+            url: /test.html
+            output: web, pdf
+
+      - title: Android
+        output: web,pdf
+        folderitems:
+          - title: Start with Google Map API
+            url: /android_google_map.html
+            output: web, pdf
+
+          - title: Custom Infowindow on google map
+            url: /android_custom_infowindow_for_google_map.html
+            output: web, pdf
+
+          - title: Find current location on google map
+            url: /android_current_location_for_google_map.html
+            output: web, pdf
+
+          - title: Add Navigation drawer and add/remove menu items dynamically
+            url: /android_navigation_drawer.html
+            output: web, pdf
+
+          - title: Android App Database - SQLite
+            url: /android_sqlite_db.html
+            output: web, pdf
 #  - title: Overview
 #    output: web, pdf
 #    folderitems:
