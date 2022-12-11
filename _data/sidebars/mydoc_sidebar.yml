@@ -280,6 +280,10 @@ entries:
                     url: /day7.html
                     output: web, pdf
 
+                  - title: Day 11
+                    url: /day11.html
+                    output: web, pdf
+
       - title: Study
         output: web,pdf
         folderitems:
