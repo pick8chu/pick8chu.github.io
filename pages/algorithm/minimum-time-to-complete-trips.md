@@ -1,4 +1,3 @@
-
 ---
 title: Minimum Time To Complete Trips
 last_updated: Mar 07, 2023
@@ -6,9 +5,7 @@ keywords: algorithm
 sidebar: mydoc_sidebar
 comments: true
 permalink: minimum-time-to-complete-trips.html
-
 ---
-
 
 ## #. Problem
 
