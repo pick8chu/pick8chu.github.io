@@ -220,6 +220,10 @@ entries:
                     url: /course-schedule-iii.html
                     output: web, pdf
 
+                  - title: Minimum Time To Complete Trips (binary search)
+                    url: /minimum-time-to-complete-trips.html
+                    output: web, pdf
+
               - title: baekjoon
                 output: web
                 subfolderitems:
