@@ -224,6 +224,10 @@ entries:
                     url: /minimum-time-to-complete-trips.html
                     output: web, pdf
 
+                  - title: Merge K Sorted Lists (Time Complexity)
+                    url: /merge-k-sorted-lists.html
+                    output: web, pdf
+
               - title: baekjoon
                 output: web
                 subfolderitems:

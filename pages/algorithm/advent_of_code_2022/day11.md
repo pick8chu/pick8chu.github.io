@@ -1,10 +1,10 @@
 ---
-title: day 7
+title: day 11
 last_updated: Dec 11, 2022
 keywords: algorithm
 sidebar: mydoc_sidebar
 comments: true
-permalink: day7.html
+permalink: day11.html
 summary: Fun excercise
 ---
 
