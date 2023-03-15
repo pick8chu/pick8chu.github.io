@@ -1,6 +1,6 @@
 ---
 title: Merge K Sorted Lists
-last_updated: Mar 07, 2023
+last_updated: Mar 13, 2023
 keywords: algorithm
 sidebar: mydoc_sidebar
 comments: true
