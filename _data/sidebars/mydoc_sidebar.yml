@@ -232,6 +232,10 @@ entries:
                     url: /count-unreachable-pairs-of-nodes-in-an-undirected-graph.html
                     output: web, pdf
 
+                  - title: Check if Object Instance of Class (JS lang)
+                    url: /check-if-object-instance-of-class.html
+                    output: web, pdf
+
               - title: baekjoon
                 output: web
                 subfolderitems:
