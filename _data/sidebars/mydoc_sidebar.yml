@@ -303,6 +303,10 @@ entries:
       - title: Study
         output: web,pdf
         folderitems:
+          - title: Summary of System Design interview
+            url: /summary-of-system-design-interview.html
+            output: web, pdf
+
           - title: Web
             url: /web.html
             output: web, pdf
