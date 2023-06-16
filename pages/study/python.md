@@ -75,19 +75,41 @@ greet("Alice")  # prints "Hello Alice" three times
     - asyncio module
     - Numba module
     - PyPy interpreter
-- Error handle in python:
-    - try: exception.
+ 
+### Error handle in python:
+- try: exception.
 
-    ```python
-    try:
-        x = 1 / 0
-    except ZeroDivisionError as e:
-        print(f"An error occurred: {e}")
-    finally:
-        print("This will run no matter what.")
-    ```
+```python
+try:
+    x = 1 / 0
+except ZeroDivisionError as e:
+    print(f"An error occurred: {e}")
+finally:
+    print("This will run no matter what.")
+```
 
-- `is` vs `==`
-    - is: identity(in memory, same reference) vs ==: same value
-- @Static method vs @Class method
-    - static method의 경우 부모 클래스의 클래스 속성 값을 가져오지만 class method의 경우 cls인자를 활용하여 현재 클래스의 클래스 속성을 가져온다.
+### `is` vs `==`
+- is: identity(in memory, same reference) vs ==: same value
+
+### @Static method vs @Class method
+- static method의 경우 부모 클래스의 클래스 속성 값을 가져오지만 class method의 경우 cls인자를 활용하여 현재 클래스의 클래스 속성을 가져온다.
+```python
+class Person:
+    default= "John"
+
+     def __init__(self):
+        self.data = self.default
+
+    @classmethod
+    def class_person(cls):
+        return cls()
+
+    @staticmethod
+    def static_person():
+        return Person()
+
+class WhatPerson(Person):
+    default = "Anna"
+person1 = WhatPerson.class_person()    # return John
+person2 = WhatPerson.static_person()   # return Anna
+```
