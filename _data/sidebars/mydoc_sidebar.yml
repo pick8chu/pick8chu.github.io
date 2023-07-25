@@ -236,6 +236,10 @@ entries:
                     url: /check-if-object-instance-of-class.html
                     output: web, pdf
 
+                  - title: Path with Maximum Probability (Dijkstra)
+                    url: /path-with-maximum-probability.html
+                    output: web, pdf
+
               - title: baekjoon
                 output: web
                 subfolderitems:
