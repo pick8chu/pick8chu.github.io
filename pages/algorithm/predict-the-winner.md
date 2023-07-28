@@ -9,7 +9,8 @@ permalink: predict-the-winner.html
 
 ## #. Problem & What to Remember
 
-### [Go to the problem on leetcode](https://leetcode.com/problems/predict-the-winner/)
+<a href="https://leetcode.com/problems/predict-the-winner/" target="_blank">Go to the problem on leetcode</a>
+
 
 ## 1. My approach
 
