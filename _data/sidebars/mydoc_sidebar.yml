@@ -240,6 +240,10 @@ entries:
                     url: /path-with-maximum-probability.html
                     output: web, pdf
 
+                  - title: Predict the winner (DP - topDown)
+                    url: /predict-the-winner.html
+                    output: web, pdf
+
               - title: baekjoon
                 output: web
                 subfolderitems:
