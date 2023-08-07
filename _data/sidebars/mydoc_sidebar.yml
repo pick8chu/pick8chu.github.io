@@ -248,6 +248,10 @@ entries:
                     url: /minimum-ascii-delete-sum-for-two-strings.html
                     output: web, pdf
 
+                  - title: Search a 2D Matrix (binary search)
+                    url: /search-a-2d-matrix.html
+                    output: web, pdf
+
               - title: baekjoon
                 output: web
                 subfolderitems:
