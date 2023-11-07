@@ -4,7 +4,7 @@ last_updated: Nov 7, 2023
 keywords: algorithm
 sidebar: mydoc_sidebar
 comments: true
-permalink: house-robber-iii.html
+permalink: eliminate-maximum-number-of-monsters.html
 ---
 
 ## #. Problem
