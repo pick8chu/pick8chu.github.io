@@ -1,6 +1,6 @@
 ---
 title: House Robber III
-last_updated: Aug 15, 2023
+last_updated: Nov 7, 2023
 keywords: algorithm
 sidebar: mydoc_sidebar
 comments: true
