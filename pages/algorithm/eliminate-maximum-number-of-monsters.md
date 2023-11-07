@@ -1,5 +1,5 @@
 ---
-title: House Robber III
+title: Eliminate Maximum Number of Monsters
 last_updated: Nov 7, 2023
 keywords: algorithm
 sidebar: mydoc_sidebar
@@ -9,62 +9,54 @@ permalink: eliminate-maximum-number-of-monsters.html
 
 ## #. Problem
 
-### <a href="https://leetcode.com/problems/house-robber-iii/" target="_blank">Go to the problem on leetcode</a>
+### <a href="https://leetcode.com/problems/eliminate-maximum-number-of-monsters/" target="_blank">Go to the problem on leetcode</a>
 
+## 1. My approach
 
-## 1. My approach (DFS)
+Straightforward:
 
-#### First attempt: 
-Comparing with `ans` at the end of the node.
 ```typescript
-...
-  function dfs(root: number, curAmt: number, prevUsed: boolean){
-    if(!root) {
-      ans = Math.max(ans, curAmt);
-      return;
+function eliminateMaximum(dist: number[], speed: number[]): number {
+    let monster = 0;
+    
+    let left = dist.map((el, idx) => Math.ceil(el/speed[idx]));
+    left.sort((a,b) => a-b);
+    
+    while(left.length){
+        const nextTurn = left[0];
+        monster += Math.min(nextTurn, left.length);
+        left.splice(0, nextTurn);
+        left = left.map(el => el-nextTurn);
+
+        if(left.length && left[0] <= 0) return monster;
     }
-...
-```
-Problem: It will only calculate and compare one traversal(left one, or right one)
 
-#### Second attempt:
-It has to return value to calculate both traversal(left + right)
-```typescript
-...
-  function dfs(root: number){
-    if(!root.left && !root.right) {
-      return root.val;
-    }
-...
-```
-Problem: This won't be able to implement the concept of skipping one for the other one.
-
-#### Third attempt:
-Since it's bruteforce anyways, let's give it every possible scenario.
-```typescript
-function rob(root: TreeNode | null): number {
-    function bruteForce(root: TreeNode): [number, number]{
-        if(!root.left && !root.right) return [root.val, 0];
-
-        const [leftUsed, leftNotUsed] = root.left? bruteForce(root.left): [0, 0];
-        const [rightUsed, rightNotUsed] = root.right? bruteForce(root.right) : [0, 0];
-
-        const usingMe = leftNotUsed + rightNotUsed + root.val;
-        const notUsingMe = Math.max(leftNotUsed + rightNotUsed, leftUsed + rightUsed, leftUsed + rightNotUsed, leftNotUsed + rightUsed);
-        // Same as: notUsingMe = Math.max(leftUsed, leftNotUsed) + Math.max(rightUsed, rightNotUsed);
-        return [usingMe, notUsingMe];
-    };
-
-    return Math.max(...bruteForce(root));
+    return monster;
 };
 ```
-Worked.
 
-_O(N)_
+## 2. Better/easier solution
 
+This approach is to remove the human way of thinking.
+It's very intuitive and very easy to understand.
+While the previous solution describes the human problem in code,
+this solution digitizes the human problem into code adding only the necessary info.
+Very impressive and easy.
+
+```typescript
+function eliminateMaximum(dist: number[], speed: number[]): number {
+    const arrivalAt = dist.map((el, idx) => el / speed[idx]);
+    arrivalAt.sort((a, b) => a - b);
+
+    let idx = 1;
+    while(idx < dist.length && arrivalAt[idx] > idx) idx++;
+
+    return idx;
+};
+```
 
 ## 3. Epilogue 
 
 What I've learned from this exercise:
 
-- I need to soften my brain...
+- Digitizing the problem would make things way easier
