@@ -256,6 +256,10 @@ entries:
                     url: /house-robber-iii.html
                     output: web, pdf
 
+                  - title: Eliminate Maximum Number of Monsters (digitizing)
+                    url: /eliminate-maximum-number-of-monsters.html
+                    output: web, pdf
+
               - title: baekjoon
                 output: web
                 subfolderitems:
