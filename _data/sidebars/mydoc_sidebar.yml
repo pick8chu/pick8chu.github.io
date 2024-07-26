@@ -260,6 +260,10 @@ entries:
                     url: /eliminate-maximum-number-of-monsters.html
                     output: web, pdf
 
+                  - title: Gas Station (Greedy)
+                    url: /gas-station.html
+                    output: web, pdf
+
               - title: baekjoon
                 output: web
                 subfolderitems:
