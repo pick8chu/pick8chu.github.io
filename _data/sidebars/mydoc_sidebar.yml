@@ -264,6 +264,10 @@ entries:
                     url: /gas-station.html
                     output: web, pdf
 
+                  - title: Find the City With the Smallest Number of Neighbors at a Threshold Distance (APSP)
+                    url: /find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.html
+                    output: web, pdf
+
               - title: baekjoon
                 output: web
                 subfolderitems:
