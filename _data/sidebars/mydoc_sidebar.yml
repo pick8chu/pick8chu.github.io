@@ -272,6 +272,10 @@ entries:
                     url: /minimum-cost-to-convert-string-i.html
                     output: web, pdf
 
+                  - title: Minimum Swaps to Group All 1's Together II (Sliding window)
+                    url: /minimum-swaps-to-group-all-1s-together-ii.html
+                    output: web, pdf
+
               - title: baekjoon
                 output: web
                 subfolderitems:
