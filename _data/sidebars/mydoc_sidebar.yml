@@ -387,6 +387,10 @@ entries:
             url: /test.html
             output: web, pdf
 
+          - title: Semaphore
+            url: /semaphore.html
+            output: web, pdf
+
       - title: Android
         output: web,pdf
         folderitems:
