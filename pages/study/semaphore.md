@@ -88,22 +88,22 @@ const apiCall = async (id) => {
 
 ## When to Use a Semaphore in JavaScript
 
-	1. Limiting Concurrent API Requests:
+1. Limiting Concurrent API Requests:
 When interacting with an external API that has a rate limit (e.g., allows only n requests per second), a semaphore can ensure that only a limited number of requests are sent concurrently, preventing overload or rate-limit violations.
-	2. Access to Shared Resources:
+2. Access to Shared Resources:
 When you need to control access to shared resources like databases, files, or network connections, semaphores can help ensure that only a specific number of tasks access the resource simultaneously.
-	3. Batch Processing:
+3. Batch Processing:
 If you’re processing a large number of items (e.g., a list of files or data), a semaphore can help control how many items are processed concurrently, which can improve efficiency and avoid overwhelming system resources.
-	4. Throttle Long-Running Tasks:
+4. Throttle Long-Running Tasks:
 When performing tasks that are resource-intensive or long-running, a semaphore can ensure you’re not starting too many tasks at once, keeping the system responsive.
 
 ## Benefits of Semaphores:
 
-	- Concurrency Control: A semaphore allows you to manage concurrency efficiently without overwhelming resources like the CPU, memory, or external services.
-	- Avoiding Rate Limits: When dealing with APIs or services that impose rate limits, semaphores prevent too many concurrent requests from being sent.
-	- Ensuring Resource Integrity: When accessing shared resources, semaphores ensure that resources aren’t accessed by too many tasks simultaneously, preventing race conditions or data corruption.
+- Concurrency Control: A semaphore allows you to manage concurrency efficiently without overwhelming resources like the CPU, memory, or external services.
+- Avoiding Rate Limits: When dealing with APIs or services that impose rate limits, semaphores prevent too many concurrent requests from being sent.
+- Ensuring Resource Integrity: When accessing shared resources, semaphores ensure that resources aren’t accessed by too many tasks simultaneously, preventing race conditions or data corruption.
 
 ## When Not to Use a Semaphore
 
-	- Single Task or Simple Async Workflows: If your application only handles a single task at a time or doesn’t need concurrency control, a semaphore may not be necessary.
-	- Tasks Without Resource Constraints: If your operations don’t require limiting (for example, they can be performed in parallel without issue), using a semaphore might add unnecessary complexity.
+- Single Task or Simple Async Workflows: If your application only handles a single task at a time or doesn’t need concurrency control, a semaphore may not be necessary.
+- Tasks Without Resource Constraints: If your operations don’t require limiting (for example, they can be performed in parallel without issue), using a semaphore might add unnecessary complexity.
