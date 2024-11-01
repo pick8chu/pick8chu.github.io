@@ -38,6 +38,8 @@ exclude:
 feedback_email: po00076@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar
 
+access_code_for_web3forms: b6c1d3e4-6bd7-4ce3-8f36-ea8fc7923823
+
 # feedback_disable: true
 # if you uncomment the previous line, the Feedback link gets removed
 
@@ -52,10 +54,10 @@ highlighter: rouge
 
 markdown: kramdown
 kramdown:
- input: GFM
- auto_ids: true
- hard_wrap: false
- syntax_highlighter: rouge
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
 
 # filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
 
@@ -65,8 +67,7 @@ collections:
 # collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
@@ -76,8 +77,7 @@ defaults:
       search: true
       sidebar: home_sidebar
       topnav: topnav
-  -
-    scope:
+  - scope:
       path: ""
       type: "tooltips"
     values:
@@ -85,8 +85,7 @@ defaults:
       search: true
       tooltip: true
 
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
@@ -100,8 +99,8 @@ defaults:
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
-- home_sidebar
-- mydoc_sidebar
+  - home_sidebar
+  - mydoc_sidebar
 #- product1_sidebar
 #- product2_sidebar
 #- other
@@ -112,6 +111,5 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 # needed for sitemap.xml file only
 # url: http://idratherbewriting.com
 # baseurl: /documentation-theme-jekyll
-
 
 github: [metadata]
