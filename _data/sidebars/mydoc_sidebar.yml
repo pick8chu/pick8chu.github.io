@@ -343,6 +343,10 @@ entries:
       - title: Study
         output: web,pdf
         folderitems:
+          - title: AI agent with crewAI
+            url: /crewai.html
+            output: web, pdf
+
           - title: Summary of System Design interview
             url: /summary-of-system-design-interview.html
             output: web, pdf
