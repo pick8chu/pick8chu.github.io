@@ -347,6 +347,10 @@ entries:
             url: /crewai.html
             output: web, pdf
 
+          - title: langchain
+            url: /langchain.html
+            output: web, pdf
+
           - title: Summary of System Design interview
             url: /summary-of-system-design-interview.html
             output: web, pdf
