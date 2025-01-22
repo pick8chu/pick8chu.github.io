@@ -26,10 +26,6 @@ entries:
             output: web, pdf
             type: homepage
 
-          - title: Contact Me
-            url: /about_contact_me.html
-            output: web, pdf
-
       - title: Algorithm
         output: web,pdf
         folderitems:
@@ -338,6 +334,21 @@ entries:
 
                   - title: Day 11
                     url: /day11.html
+                    output: web, pdf
+
+              - title: Advent Of Code 24'
+                output: web
+                subfolderitems:
+                  - title: Day 5
+                    url: /5.html
+                    output: web, pdf
+
+                  - title: Day 7
+                    url: /7.html
+                    output: web, pdf
+
+                  - title: Day 8
+                    url: /8.html
                     output: web, pdf
 
       - title: Study
