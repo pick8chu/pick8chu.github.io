@@ -340,15 +340,15 @@ entries:
                 output: web
                 subfolderitems:
                   - title: Day 5
-                    url: /advent_of_code_2024-day5.html
+                    url: /5.html
                     output: web, pdf
 
                   - title: Day 7
-                    url: /advent_of_code_2024-day7.html
+                    url: /7.html
                     output: web, pdf
 
                   - title: Day 8
-                    url: /advent_of_code_2024-day8.html
+                    url: /8.html
                     output: web, pdf
 
       - title: Study
