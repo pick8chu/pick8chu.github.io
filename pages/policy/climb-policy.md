@@ -85,6 +85,6 @@ We may update this policy from time to time. Any significant changes will be com
 
 ## 9. Contact Us
 
-If you have any questions about this policy, please contact us at:
+If you have any questions about this policy, please contact us with:
 
-[Contact Me](https://pick8chu.github.io/index.html#contact-me)
+{% include contact.html %}
