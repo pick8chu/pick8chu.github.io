@@ -26,6 +26,13 @@ entries:
             output: web, pdf
             type: homepage
 
+          - title: Policy
+            output: web
+            subfolderitems:
+              - title: 2025-02-06
+                url: /climb-policy.html
+                output: web, pdf
+
       - title: Algorithm
         output: web,pdf
         folderitems:
