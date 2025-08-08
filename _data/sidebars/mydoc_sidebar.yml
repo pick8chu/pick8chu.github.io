@@ -279,6 +279,10 @@ entries:
                     url: /minimum-swaps-to-group-all-1s-together-ii.html
                     output: web, pdf
 
+                  - title: Course Schedule (Topological sort)
+                    url: /course-schedule.html
+                    output: web, pdf
+
               - title: baekjoon
                 output: web
                 subfolderitems:
