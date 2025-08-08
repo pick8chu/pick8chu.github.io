@@ -201,6 +201,12 @@ var canFinish = function(numCourses, prerequisites) {
 };
 ```
 
+
+| Time - O(V+E) | Space - O(V+E) |
+| ----------- | ------------ |
+| 19 ms       | 61.4 MB        |
+
+
 ## 3. Epilogue 
 
 What I've learned from this exercise:
