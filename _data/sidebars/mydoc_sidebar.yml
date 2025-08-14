@@ -406,6 +406,19 @@ entries:
             url: /semaphore.html
             output: web, pdf
 
+            subfolders:
+              - title: Login/auth
+                output: web
+                subfolderitems:
+                  - title: JWT and OAuth
+                    url: /jwt_and_oauth.html
+                    output: web
+
+                  - title: PKCE
+                    url: /pkce.html
+                    output: web
+
+
       - title: Android
         output: web,pdf
         folderitems:
