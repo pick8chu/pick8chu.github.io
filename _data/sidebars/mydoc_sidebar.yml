@@ -406,6 +406,10 @@ entries:
             url: /semaphore.html
             output: web, pdf
 
+          - title: Session cookie
+            url: /session-cookie.html
+            output: web, pdf
+
             subfolders:
               - title: Login/auth
                 output: web
