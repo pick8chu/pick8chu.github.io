@@ -350,6 +350,10 @@ entries:
       - title: Study
         output: web,pdf
         folderitems:
+          - title: Blockchain and crypto
+            url: /blockchain.html
+            output: web, pdf
+
           - title: AI agent with crewAI
             url: /crewai.html
             output: web, pdf
