@@ -109,7 +109,7 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-# url: http://idratherbewriting.com
+url: https://pick8chu.github.io
 # baseurl: /documentation-theme-jekyll
 
 github: [metadata]
