@@ -414,6 +414,10 @@ entries:
             url: /session-cookie.html
             output: web, pdf
 
+          - title: Reverse proxy
+            url: /reverse-proxy.html
+            output: web, pdf
+
             subfolders:
               - title: Login/auth
                 output: web
