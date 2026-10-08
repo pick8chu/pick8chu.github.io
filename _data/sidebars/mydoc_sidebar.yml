@@ -418,6 +418,15 @@ entries:
             url: /reverse-proxy.html
             output: web, pdf
 
+          - title: OTEL learning on review
+            url: /otel-review.html
+            output: web, pdf
+
+          - title: Generator function
+            url: /generator-function.html
+            output: web, pdf
+
+
             subfolders:
               - title: Login/auth
                 output: web
